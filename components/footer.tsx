@@ -11,11 +11,11 @@ export default function Footer() {
           {/* Logo and Company Info */}
           <div>
             <div className="flex items-center mb-6">
-              <h2 className="text-2xl font-bold text-white">StoneCut Pro</h2>
+              <h2 className="text-2xl font-bold text-white">ATC</h2>
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               Premium stone cutting machinery and tools for professionals. Delivering precision, reliability, and
-              exceptional performance for over 15 years.
+              exceptional performance for over 34 years.
             </p>
             <div className="flex space-x-4">
               <a
@@ -269,7 +269,7 @@ export default function Footer() {
                   <span className="text-gray-400">
                     123 Industrial Parkway, Suite 500
                     <br />
-                    New York, NY 10001
+                    Jaipur, Rajasthan
                   </span>
                 </div>
                 <div className="flex items-start">
@@ -283,9 +283,8 @@ export default function Footer() {
                 <div className="flex items-start">
                   <Clock className="h-5 w-5 text-gray-400 mr-3 mt-1" />
                   <span className="text-gray-400">
-                    Monday - Friday: 8:00 AM - 6:00 PM
-                    <br />
-                    Saturday: 9:00 AM - 2:00 PM
+                    Monday - Saturday: 8:00 AM - 6:00 PM
+                    
                   </span>
                 </div>
               </div>

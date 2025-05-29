@@ -375,11 +375,8 @@ export default function ContactSection() {
                   <div>
                     <h4 className="text-lg font-semibold text-gray-800">Business Hours</h4>
                     <p className="text-gray-600">
-                      Monday - Friday: 8:00 AM - 6:00 PM
-                      <br />
-                      Saturday: 9:00 AM - 2:00 PM
-                      <br />
-                      Sunday: Closed
+                      Monday - Saturday: 8:00 AM - 6:00 PM
+                    
                     </p>
                   </div>
                 </div>

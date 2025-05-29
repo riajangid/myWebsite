@@ -16,9 +16,9 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: "StoneCut Pro - Premium Stone Cutting Machinery & Tools | Industrial Equipment",
+  title: "ActiveTradeCentre",
   description:
-    "Discover high-quality stone cutting machinery, tools, and equipment at StoneCut Pro. Professional-grade solutions for marble, granite, and stone processing industries.",
+    "Discover high-quality stone cutting machinery, tools, and equipment at ATC. Professional-grade solutions for marble, granite, and stone processing industries.",
     generator: 'v0.dev'
 }
 

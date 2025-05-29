@@ -37,7 +37,7 @@ export default function HeroSection() {
           {/* Hero Content */}
           <div className="w-full md:w-1/2 mb-8 md:mb-0 md:pr-8 animate-fade-in">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4">
-              Professional Stone Cutting Solutions
+              Active Trade Centre
             </h1>
             <p className="text-lg text-gray-600 mb-6">
               High-performance machinery and tools for precision stone cutting, designed for professionals who demand
