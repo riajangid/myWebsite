@@ -422,11 +422,11 @@ export default function ContactSection() {
         </div>
         {/* Map Section */}
         <div className="mt-16">
-          <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">Visit Our Showroom</h3>
+          <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">Visit Our Factory</h3>
           <div className="bg-gray-200 rounded-xl overflow-hidden h-96 shadow-lg">
             <iframe
               title="Visit Our Showroom"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1778.4176482337946!2d75.77240238305455!3d26.9404354523625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db3bd66223f0d%3A0x44d7dabd427c8c9a!2sChomu%20Pulia%20Cir!5e0!3m2!1sen!2sin!4v1747478668577!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3554.6630494596893!2d75.68901641172235!3d27.009206676492163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dad53a6edff1b%3A0x56ece1f18f492986!2sActive%20Trade%20Centre!5e0!3m2!1sen!2sin!4v1748537339351!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
