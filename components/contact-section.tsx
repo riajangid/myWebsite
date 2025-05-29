@@ -8,12 +8,35 @@ import { Mail, Phone, MapPin, Clock, X } from "lucide-react"
 
 export default function ContactSection() {
   const [formSubmitted, setFormSubmitted] = useState(false)
+  const [loading, setLoading] = useState(false);
+const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setLoading(true);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
-    // In a real implementation, you would send the form data to a server here
-    setFormSubmitted(true)
-  }
+    const form = e.currentTarget;
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: {
+          Accept: 'application/json',
+        },
+      });
+
+      if (response.ok) {
+        window.location.href = formData.get('_next') as string;
+      } else {
+        alert('There was an error submitting the form.');
+      }
+    } catch (error) {
+      console.error(error);
+      alert('Something went wrong.');
+    } finally {
+      setLoading(false);
+    }
+  };
 
   const closeModal = () => {
     setFormSubmitted(false)
@@ -160,39 +183,11 @@ export default function ContactSection() {
           <div className="bg-gray-50 rounded-xl shadow-lg p-8">
           <h3 className="text-2xl font-bold text-gray-800 mb-6">Send Us a Message</h3>
           <form
-            action="https://formspree.io/f/yourFormID"
+            action="https://formspree.io/f/xjkwnndn"
             method="POST"
             className="space-y-6"
+            onSubmit={handleSubmit}
           >
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div>
-                <label htmlFor="name" className="block text-gray-700 font-medium mb-2">
-                  Full Name
-                </label>
-                <input
-                  type="text"
-                  id="name"
-                  name="name"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200"
-                  placeholder="Your name"
-                  required
-                />
-              </div>
-              <div>
-                <label htmlFor="email" className="block text-gray-700 font-medium mb-2">
-                  Email Address
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200"
-                  placeholder="your.email@example.com"
-                  required
-                />
-              </div>
-            </div>
-
             <div>
               <label htmlFor="phone" className="block text-gray-700 font-medium mb-2">
                 Phone Number
@@ -216,6 +211,19 @@ export default function ContactSection() {
                 name="company"
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200"
                 placeholder="Your company name"
+              />
+            </div>
+
+            <div>
+              <label htmlFor="email" className="block text-gray-700 font-medium mb-2">
+                Email
+              </label>
+              <input
+                type="text"
+                id="email"
+                name="email"
+                className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-200"
+                placeholder="Your Company Email"
               />
             </div>
 
@@ -281,16 +289,30 @@ export default function ContactSection() {
               name="_next"
               value="https://stone-cutting-machine-landing-page.vercel.app/"
             />
-
             <div>
-              <button
-                type="submit"
-                className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center"
-              >
-                <Mail className="h-5 w-5 mr-2" />
-                Send Message
-              </button>
-            </div>
+            <button
+              type="submit"
+              disabled={loading}
+              className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center"
+            >
+              {loading ? (
+                <>
+                  <svg className="animate-spin h-5 w-5 mr-2 text-white" viewBox="0 0 24 24">
+                    <circle className="opacity-25" cx="12" cy="12" r="10"
+                            stroke="currentColor" strokeWidth="4" fill="none" />
+                    <path className="opacity-75" fill="currentColor"
+                          d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z" />
+                  </svg>
+                  Sending...
+                </>
+              ) : (
+                <>
+                  <Mail className="h-5 w-5 mr-2" />
+                  Send Message
+                </>
+              )}
+            </button>
+          </div>
           </form>
         </div>
 
