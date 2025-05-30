@@ -53,6 +53,12 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+
+        // ✅ Add custom cherry red color
+        cherry: {
+          DEFAULT: "#BD2D24",
+          dark: "#a8261e", // Optional darker variant for hover
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

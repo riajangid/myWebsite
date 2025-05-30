@@ -127,7 +127,7 @@ export default function ProductsSection() {
                 <p className="text-gray-600 mb-4">{category.description}</p>
                 <Link
                   href="#"
-                  className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded transition duration-300"
+                  className="inline-block bg-cherry hover:bg-blue-700 text-white font-medium py-2 px-4 rounded transition duration-300"
                 >
                   View Collection
                 </Link>
@@ -142,7 +142,7 @@ export default function ProductsSection() {
             <button
               key={index}
               className={`w-3 h-3 rounded-full ${
-                index === currentIndex ? "bg-blue-600" : "bg-gray-300"
+                index === currentIndex ? "bg-cherry" : "bg-gray-300"
               } focus:outline-none`}
               onClick={() => setCurrentIndex(index)}
             />

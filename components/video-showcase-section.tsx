@@ -110,7 +110,7 @@ export default function VideoShowcaseSection() {
                   />
                   <button
                     id="play-button"
-                    className="absolute bg-blue-600 hover:bg-blue-700 text-white rounded-full w-16 h-16 flex items-center justify-center transition duration-300 transform hover:scale-110 focus:outline-none"
+                    className="absolute bg-cherry hover:bg-blue-700 text-white rounded-full w-16 h-16 flex items-center justify-center transition duration-300 transform hover:scale-110 focus:outline-none"
                     aria-label="Play video"
                     onClick={() => openModal(0)}
                   >
@@ -144,10 +144,10 @@ export default function VideoShowcaseSection() {
                 <Image src={video.thumbnail || "/placeholder.svg"} alt={video.title} fill className="object-cover" />
                 <div className="absolute inset-0 bg-black bg-opacity-30 flex items-center justify-center">
                   <div className="bg-white bg-opacity-80 rounded-full w-12 h-12 flex items-center justify-center">
-                    <Play className="h-6 w-6 text-blue-600" />
+                    <Play className="h-6 w-6 text-cherry" />
                   </div>
                 </div>
-                <div className="absolute bottom-2 right-2 bg-blue-600 text-white text-xs px-2 py-1 rounded">
+                <div className="absolute bottom-2 right-2 bg-cherry text-white text-xs px-2 py-1 rounded">
                   {video.duration}
                 </div>
               </div>
@@ -165,7 +165,7 @@ export default function VideoShowcaseSection() {
             <button
               key={page}
               className={`pagination-btn w-10 h-10 rounded-full ${
-                page === activePage ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-700 hover:bg-gray-300"
+                page === activePage ? "bg-cherry text-white" : "bg-gray-200 text-gray-700 hover:bg-gray-300"
               } flex items-center justify-center focus:outline-none`}
               onClick={() => handlePageChange(page)}
             >
@@ -175,7 +175,7 @@ export default function VideoShowcaseSection() {
         </div>
 
         {/* Subscribe for More Videos */}
-        <div className="bg-blue-600 rounded-xl p-8 text-center text-white">
+        <div className="bg-cherry rounded-xl p-8 text-center text-white">
           <h3 className="text-2xl font-bold mb-4">Subscribe for New Product Videos</h3>
           <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
             Stay updated with our latest product demonstrations, tutorials, and industry insights.
@@ -190,7 +190,7 @@ export default function VideoShowcaseSection() {
               />
               <button
                 type="submit"
-                className="bg-white text-blue-600 hover:bg-blue-50 font-medium py-3 px-6 rounded-lg transition duration-300"
+                className="bg-white text-cherry hover:bg-blue-50 font-medium py-3 px-6 rounded-lg transition duration-300"
               >
                 Subscribe
               </button>
@@ -226,7 +226,7 @@ export default function VideoShowcaseSection() {
                   />
                   <button
                     id="modal-play-button"
-                    className="absolute bg-blue-600 hover:bg-blue-700 text-white rounded-full w-20 h-20 flex items-center justify-center transition duration-300 transform hover:scale-110 focus:outline-none"
+                    className="absolute bg-cherry hover:bg-blue-700 text-white rounded-full w-20 h-20 flex items-center justify-center transition duration-300 transform hover:scale-110 focus:outline-none"
                     aria-label="Play video"
                   >
                     <Play className="h-10 w-10" />

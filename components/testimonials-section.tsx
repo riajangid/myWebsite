@@ -156,7 +156,7 @@ export default function TestimonialsSection() {
             <button
               key={index}
               className={`w-3 h-3 rounded-full ${
-                index === currentIndex ? "bg-blue-600" : "bg-gray-300"
+                index === currentIndex ? "bg-cherry" : "bg-gray-300"
               } focus:outline-none`}
               onClick={() => setCurrentIndex(index)}
             />
@@ -166,19 +166,19 @@ export default function TestimonialsSection() {
         {/* Testimonial Stats */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-16 text-center">
           <div className="bg-white p-6 rounded-lg shadow-md">
-            <div className="text-3xl font-bold text-blue-600 mb-2">500+</div>
+            <div className="text-3xl font-bold text-cherry mb-2">500+</div>
             <p className="text-gray-600">Satisfied Customers</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
-            <div className="text-3xl font-bold text-blue-600 mb-2">98%</div>
+            <div className="text-3xl font-bold text-cherry mb-2">98%</div>
             <p className="text-gray-600">Customer Satisfaction</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
-            <div className="text-3xl font-bold text-blue-600 mb-2">15+</div>
+            <div className="text-3xl font-bold text-cherry mb-2">15+</div>
             <p className="text-gray-600">Years of Experience</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
-            <div className="text-3xl font-bold text-blue-600 mb-2">24/7</div>
+            <div className="text-3xl font-bold text-cherry mb-2">24/7</div>
             <p className="text-gray-600">Customer Support</p>
           </div>
         </div>

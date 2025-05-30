@@ -102,8 +102,8 @@ export default function GallerySection() {
           <button
             className={`filter-btn px-6 py-2 rounded-full transition duration-300 ${
               activeFilter === "all"
-                ? "bg-blue-600 text-white"
-                : "bg-gray-200 text-gray-800 hover:bg-blue-600 hover:text-white"
+                ? "bg-cherry text-white"
+                : "bg-gray-200 text-gray-800 hover:bg-cherry hover:text-white"
             }`}
             onClick={() => setActiveFilter("all")}
           >
@@ -112,8 +112,8 @@ export default function GallerySection() {
           <button
             className={`filter-btn px-6 py-2 rounded-full transition duration-300 ${
               activeFilter === "machines"
-                ? "bg-blue-600 text-white"
-                : "bg-gray-200 text-gray-800 hover:bg-blue-600 hover:text-white"
+                ? "bg-cherry text-white"
+                : "bg-gray-200 text-gray-800 hover:bg-cherry hover:text-white"
             }`}
             onClick={() => setActiveFilter("machines")}
           >
@@ -122,8 +122,8 @@ export default function GallerySection() {
           <button
             className={`filter-btn px-6 py-2 rounded-full transition duration-300 ${
               activeFilter === "tools"
-                ? "bg-blue-600 text-white"
-                : "bg-gray-200 text-gray-800 hover:bg-blue-600 hover:text-white"
+                ? "bg-cherry text-white"
+                : "bg-gray-200 text-gray-800 hover:bg-cherry hover:text-white"
             }`}
             onClick={() => setActiveFilter("tools")}
           >
@@ -132,8 +132,8 @@ export default function GallerySection() {
           <button
             className={`filter-btn px-6 py-2 rounded-full transition duration-300 ${
               activeFilter === "projects"
-                ? "bg-blue-600 text-white"
-                : "bg-gray-200 text-gray-800 hover:bg-blue-600 hover:text-white"
+                ? "bg-cherry text-white"
+                : "bg-gray-200 text-gray-800 hover:bg-cherry hover:text-white"
             }`}
             onClick={() => setActiveFilter("projects")}
           >
@@ -159,7 +159,7 @@ export default function GallerySection() {
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-5">
                   <h3 className="text-white text-xl font-semibold">{item.title}</h3>
                   <p className="text-gray-200">{item.title.split(" ").slice(0, 3).join(" ")}</p>
-                  <button className="view-gallery-btn mt-3 bg-blue-600 text-white py-2 px-4 rounded-lg inline-flex items-center">
+                  <button className="view-gallery-btn mt-3 bg-cherry text-white py-2 px-4 rounded-lg inline-flex items-center">
                     <Eye className="h-5 w-5 mr-2" />
                     View Details
                   </button>

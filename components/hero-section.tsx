@@ -46,7 +46,7 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="#products"
-                className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 text-center"
+                className="bg-cherry hover:bg-red-800 text-white font-medium py-3 px-6 rounded-lg transition duration-300 text-center"
               >
                 Explore Products
               </Link>
@@ -102,15 +102,15 @@ export default function HeroSection() {
         {/* Quick Stats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 text-center">
           <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
-            <div className="text-3xl font-bold text-blue-600 mb-2">15+ Years</div>
+            <div className="text-3xl font-bold text-cherry mb-2">15+ Years</div>
             <p className="text-gray-600">Industry Experience</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
-            <div className="text-3xl font-bold text-blue-600 mb-2">500+</div>
+            <div className="text-3xl font-bold text-cherry mb-2">500+</div>
             <p className="text-gray-600">Projects Completed</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
-            <div className="text-3xl font-bold text-blue-600 mb-2">24/7</div>
+            <div className="text-3xl font-bold text-cherry mb-2">24/7</div>
             <p className="text-gray-600">Technical Support</p>
           </div>
         </div>

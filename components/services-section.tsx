@@ -176,7 +176,7 @@ export default function ServicesSection() {
                   />
                 ) : (
                   <div className="relative h-48 overflow-hidden">
-                    <div className="absolute inset-0 bg-blue-600 bg-opacity-80 flex items-center justify-center">
+                    <div className="absolute inset-0 bg-cherry bg-opacity-80 flex items-center justify-center">
                       <div className="text-center text-white p-4">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -199,13 +199,13 @@ export default function ServicesSection() {
                 )}
               </div>
               <div className="p-6">
-                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4 text-blue-600">
+                <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mb-4 text-cherry">
                   {service.icon}
                 </div>
                 <h3 className="text-xl font-semibold text-gray-800 mb-2">{service.title}</h3>
                 <p className="text-gray-600 mb-4">{service.description}</p>
                 <button
-                  className="text-blue-600 hover:text-blue-800 font-medium flex items-center transition duration-300"
+                  className="text-cherry hover:text-blue-800 font-medium flex items-center transition duration-300"
                   onClick={() => openModal(service.id)}
                 >
                   Learn More
@@ -231,7 +231,7 @@ export default function ServicesSection() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {/* Step 1 */}
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-cherry text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 1
               </div>
               <h4 className="text-lg font-semibold text-gray-800 mb-2">Consultation</h4>
@@ -240,7 +240,7 @@ export default function ServicesSection() {
 
             {/* Step 2 */}
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-cherry text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 2
               </div>
               <h4 className="text-lg font-semibold text-gray-800 mb-2">Assessment</h4>
@@ -249,7 +249,7 @@ export default function ServicesSection() {
 
             {/* Step 3 */}
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-cherry text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 3
               </div>
               <h4 className="text-lg font-semibold text-gray-800 mb-2">Implementation</h4>
@@ -258,7 +258,7 @@ export default function ServicesSection() {
 
             {/* Step 4 */}
             <div className="text-center">
-              <div className="w-16 h-16 bg-blue-600 text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
+              <div className="w-16 h-16 bg-cherry text-white rounded-full flex items-center justify-center text-2xl font-bold mx-auto mb-4">
                 4
               </div>
               <h4 className="text-lg font-semibold text-gray-800 mb-2">Follow-up</h4>
@@ -276,7 +276,7 @@ export default function ServicesSection() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 transform transition duration-300 hover:shadow-xl">
               <div className="bg-gray-100 p-6 text-center">
                 <h4 className="text-xl font-bold text-gray-800">Basic Package</h4>
-                <div className="text-3xl font-bold text-blue-600 my-4">
+                <div className="text-3xl font-bold text-cherry my-4">
                   $499<span className="text-sm text-gray-600 font-normal">/year</span>
                 </div>
                 <p className="text-gray-600">For small businesses and startups</p>
@@ -332,7 +332,7 @@ export default function ServicesSection() {
                     10% discount on parts
                   </li>
                 </ul>
-                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300 mt-6">
+                <button className="w-full bg-cherry hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300 mt-6">
                   Get Started
                 </button>
               </div>
@@ -340,7 +340,7 @@ export default function ServicesSection() {
 
             {/* Professional Package */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden border-2 border-blue-500 transform transition duration-300 hover:shadow-xl scale-105">
-              <div className="bg-blue-600 p-6 text-center">
+              <div className="bg-cherry p-6 text-center">
                 <h4 className="text-xl font-bold text-white">Professional Package</h4>
                 <div className="text-3xl font-bold text-white my-4">
                   $999<span className="text-sm text-blue-200 font-normal">/year</span>
@@ -413,7 +413,7 @@ export default function ServicesSection() {
                     4 hours of operator training
                   </li>
                 </ul>
-                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300 mt-6">
+                <button className="w-full bg-cherry hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300 mt-6">
                   Get Started
                 </button>
               </div>
@@ -423,7 +423,7 @@ export default function ServicesSection() {
             <div className="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200 transform transition duration-300 hover:shadow-xl">
               <div className="bg-gray-100 p-6 text-center">
                 <h4 className="text-xl font-bold text-gray-800">Enterprise Package</h4>
-                <div className="text-3xl font-bold text-blue-600 my-4">
+                <div className="text-3xl font-bold text-cherry my-4">
                   $1,999<span className="text-sm text-gray-600 font-normal">/year</span>
                 </div>
                 <p className="text-gray-600">For large operations</p>
@@ -503,7 +503,7 @@ export default function ServicesSection() {
                     Annual process optimization
                   </li>
                 </ul>
-                <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300 mt-6">
+                <button className="w-full bg-cherry hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300 mt-6">
                   Get Started
                 </button>
               </div>
@@ -512,7 +512,7 @@ export default function ServicesSection() {
         </div>
 
         {/* CTA */}
-        <div className="bg-blue-600 rounded-xl p-8 text-center text-white">
+        <div className="bg-cherry rounded-xl p-8 text-center text-white">
           <h3 className="text-2xl font-bold mb-4">Ready to Elevate Your Stone Cutting Operations?</h3>
           <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
             Contact our team today to discuss your specific needs and discover how our services can help you achieve
@@ -521,7 +521,7 @@ export default function ServicesSection() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="#contact"
-              className="bg-white text-blue-600 hover:bg-blue-50 font-medium py-3 px-6 rounded-lg transition duration-300 inline-flex items-center justify-center"
+              className="bg-white text-cherry hover:bg-blue-50 font-medium py-3 px-6 rounded-lg transition duration-300 inline-flex items-center justify-center"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -541,7 +541,7 @@ export default function ServicesSection() {
             </Link>
             <Link
               href="#"
-              className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-blue-600 font-medium py-3 px-6 rounded-lg transition duration-300 inline-flex items-center justify-center"
+              className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-cherry font-medium py-3 px-6 rounded-lg transition duration-300 inline-flex items-center justify-center"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

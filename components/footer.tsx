@@ -15,12 +15,12 @@ export default function Footer() {
             </div>
             <p className="text-gray-400 mb-6 max-w-md">
               Premium stone cutting machinery and tools for professionals. Delivering precision, reliability, and
-              exceptional performance for over 34 years.
+              exceptional performance for over 30+ years.
             </p>
             <div className="flex space-x-4">
               <a
                 href="#"
-                className="bg-blue-600 hover:bg-blue-700 text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300"
+                className="bg-cherry hover:bg-blue-700 text-white w-10 h-10 rounded-full flex items-center justify-center transition duration-300"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z" />
@@ -76,7 +76,7 @@ export default function Footer() {
               />
               <button
                 type="submit"
-                className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300"
+                className="bg-cherry hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300"
               >
                 Subscribe
               </button>
@@ -314,3 +314,10 @@ export default function Footer() {
     </footer>
   )
 }
+
+
+
+
+
+
+

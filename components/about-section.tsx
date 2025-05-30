@@ -29,7 +29,7 @@ export default function AboutSection() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="#contact"
-                className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 text-center inline-flex items-center justify-center"
+                className="bg-cherry hover:bg-red-800 text-white font-medium py-3 px-6 rounded-lg transition duration-300 text-center inline-flex items-center justify-center"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +72,7 @@ export default function AboutSection() {
           <h3 className="text-2xl font-bold text-gray-800 mb-8 text-center">Why Choose Us</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-md transform transition duration-300 hover:shadow-lg hover:-translate-y-1">
-              <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4 text-blue-600">
+              <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4 text-cherry">
                 <Shield className="h-8 w-8" />
               </div>
               <h4 className="text-xl font-semibold text-gray-800 mb-2">Quality Assurance</h4>
@@ -83,7 +83,7 @@ export default function AboutSection() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md transform transition duration-300 hover:shadow-lg hover:-translate-y-1">
-              <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4 text-blue-600">
+              <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4 text-cherry">
                 <Zap className="h-8 w-8" />
               </div>
               <h4 className="text-xl font-semibold text-gray-800 mb-2">Innovation</h4>
@@ -94,7 +94,7 @@ export default function AboutSection() {
             </div>
 
             <div className="bg-white p-6 rounded-lg shadow-md transform transition duration-300 hover:shadow-lg hover:-translate-y-1">
-              <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4 text-blue-600">
+              <div className="w-14 h-14 bg-blue-100 rounded-full flex items-center justify-center mb-4 text-cherry">
                 <LifeBuoy className="h-8 w-8" />
               </div>
               <h4 className="text-xl font-semibold text-gray-800 mb-2">Expert Support</h4>
@@ -122,7 +122,7 @@ export default function AboutSection() {
             <div>
               <div className="space-y-6">
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4">
+                  <div className="flex-shrink-0 bg-cherry text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4">
                     1
                   </div>
                   <div>
@@ -135,7 +135,7 @@ export default function AboutSection() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4">
+                  <div className="flex-shrink-0 bg-cherry text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4">
                     2
                   </div>
                   <div>
@@ -147,7 +147,7 @@ export default function AboutSection() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4">
+                  <div className="flex-shrink-0 bg-cherry text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4">
                     3
                   </div>
                   <div>
@@ -159,7 +159,7 @@ export default function AboutSection() {
                 </div>
 
                 <div className="flex items-start">
-                  <div className="flex-shrink-0 bg-blue-600 text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4">
+                  <div className="flex-shrink-0 bg-cherry text-white rounded-full w-8 h-8 flex items-center justify-center font-bold mr-4">
                     4
                   </div>
                   <div>
@@ -186,7 +186,7 @@ export default function AboutSection() {
                   <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mr-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-8 w-8 text-blue-600"
+                      className="h-8 w-8 text-cherry"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -209,7 +209,7 @@ export default function AboutSection() {
                   <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mr-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-8 w-8 text-blue-600"
+                      className="h-8 w-8 text-cherry"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -232,7 +232,7 @@ export default function AboutSection() {
                   <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mr-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-8 w-8 text-blue-600"
+                      className="h-8 w-8 text-cherry"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -268,7 +268,7 @@ export default function AboutSection() {
         <div className="mt-16 text-center">
           <Link
             href="#contact"
-            className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-lg transition duration-300"
+            className="inline-block bg-cherry hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-lg transition duration-300"
           >
             Get in Touch
           </Link>
