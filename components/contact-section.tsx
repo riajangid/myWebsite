@@ -48,7 +48,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Contact</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Get in touch with our team of experts to discuss your stone cutting machinery needs or request a quote.
+            Get in touch with our team of experts to discuss your stone cutting machinery needs or request a quotation.
           </p>
         </div>
 
@@ -242,7 +242,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
                   Select a subject
                 </option>
                 <option value="product-inquiry">Product Inquiry</option>
-                <option value="quote-request">Request a Quote</option>
+                <option value="quote-request">Request a Quotation</option>
                 <option value="technical-support">Technical Support</option>
                 <option value="maintenance-service">Maintenance Service</option>
                 <option value="other">Other</option>

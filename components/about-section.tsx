@@ -18,7 +18,7 @@ export default function AboutSection() {
           <div className="order-2 lg:order-1">
             <h3 className="text-2xl font-bold text-gray-800 mb-4">Our Story</h3>
             <p className="text-gray-600 mb-4">
-              With over 15 years of experience in the stone cutting industry, we've built a reputation for excellence
+              With over 30+ years of experience in the stone cutting industry, we've built a reputation for excellence
               and innovation. Our journey began with a simple mission: to provide professional-grade machinery that
               delivers precision, reliability, and value.
             </p>
@@ -246,7 +246,7 @@ export default function AboutSection() {
                     </svg>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold text-gray-800">15+</div>
+                    <div className="text-3xl font-bold text-gray-800">30+</div>
                     <div className="text-gray-600">Years of Experience</div>
                   </div>
                 </div>
