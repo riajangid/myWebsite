@@ -29,7 +29,7 @@ export default function AboutSection() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="#contact"
-                className="bg-cherry hover:bg-red-800 text-white font-medium py-3 px-6 rounded-lg transition duration-300 text-center inline-flex items-center justify-center"
+                className="bg-cherry hover:bg-cherry-dark text-white font-medium py-3 px-6 rounded-lg transition duration-300 text-center inline-flex items-center justify-center"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -268,7 +268,7 @@ export default function AboutSection() {
         <div className="mt-16 text-center">
           <Link
             href="#contact"
-            className="inline-block bg-cherry hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-lg transition duration-300"
+            className="inline-block bg-cherry hover:bg-cherry-dark text-white font-medium py-3 px-8 rounded-lg transition duration-300"
           >
             Get in Touch
           </Link>

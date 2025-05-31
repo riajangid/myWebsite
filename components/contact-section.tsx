@@ -172,7 +172,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
               <div>
                 <button
                   type="submit"
-                  className="w-full bg-cherry hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center"
+                  className="w-full bg-cherry hover:bg-cherry-dark text-white font-medium py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center"
                 >
                   <Mail className="h-5 w-5 mr-2" />
                   Send Message
@@ -293,7 +293,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-cherry hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center"
+              className="w-full bg-cherry hover:bg-cherry-dark text-white font-medium py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center"
             >
               {loading ? (
                 <>
@@ -431,7 +431,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
               >
                 <Mail className="h-6 w-6 mr-2" />
                 Send Email
-              </a>h-48 overflow-hidden
+              </a>
               <a
                 href="tel:+15551234567"
                 className="flex items-center justify-center bg-gray-800 hover:bg-gray-900 text-white font-medium py-3 px-6 rounded-lg transition duration-300 w-full"
@@ -492,7 +492,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
                 Thank you for contacting us. We've received your message and will get back to you shortly.
               </p>
               <button
-                className="bg-cherry hover:bg-blue-700 text-white font-medium py-2 px-6 rounded-lg transition duration-300"
+                className="bg-cherry hover:bg-cherry-dark text-white font-medium py-2 px-6 rounded-lg transition duration-300"
                 onClick={closeModal}
               >
                 Close

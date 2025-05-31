@@ -61,7 +61,7 @@ export default function Header() {
             </button>
             <Link href="#cart" className="text-gray-700 hover:text-gray-900 relative">
               <ShoppingCart className="h-6 w-6" />
-              <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
+              <span className="absolute -top-2 -right-2 bg-cherry-dark text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
                 0
               </span>
             </Link>

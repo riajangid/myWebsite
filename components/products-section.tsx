@@ -127,7 +127,7 @@ export default function ProductsSection() {
                 <p className="text-gray-600 mb-4">{category.description}</p>
                 <Link
                   href="#"
-                  className="inline-block bg-cherry hover:bg-blue-700 text-white font-medium py-2 px-4 rounded transition duration-300"
+                  className="inline-block bg-cherry hover:bg-cherry-dark text-white font-medium py-2 px-4 rounded transition duration-300"
                 >
                   View Collection
                 </Link>
@@ -153,7 +153,7 @@ export default function ProductsSection() {
         <div className="text-center mt-12">
           <Link
             href="#"
-            className="inline-block bg-gray-800 hover:bg-gray-900 text-white font-medium py-3 px-8 rounded-lg transition duration-300"
+            className="inline-block bg-gray-800 hover:bg-gray-950 text-white font-medium py-3 px-8 rounded-lg transition duration-300"
           >
             View All Products
           </Link>

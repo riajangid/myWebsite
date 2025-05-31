@@ -46,7 +46,7 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="#products"
-                className="bg-cherry hover:bg-red-800 text-white font-medium py-3 px-6 rounded-lg transition duration-300 text-center"
+                className="bg-cherry hover:bg-cherry-dark text-white font-medium py-3 px-6 rounded-lg transition duration-300 text-center"
               >
                 Explore Products
               </Link>

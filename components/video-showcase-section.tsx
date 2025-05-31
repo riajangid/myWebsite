@@ -110,7 +110,7 @@ export default function VideoShowcaseSection() {
                   />
                   <button
                     id="play-button"
-                    className="absolute bg-cherry hover:bg-blue-700 text-white rounded-full w-16 h-16 flex items-center justify-center transition duration-300 transform hover:scale-110 focus:outline-none"
+                    className="absolute bg-cherry hover:bg-cherry-dark text-white rounded-full w-16 h-16 flex items-center justify-center transition duration-300 transform hover:scale-110 focus:outline-none"
                     aria-label="Play video"
                     onClick={() => openModal(0)}
                   >
@@ -226,7 +226,7 @@ export default function VideoShowcaseSection() {
                   />
                   <button
                     id="modal-play-button"
-                    className="absolute bg-cherry hover:bg-blue-700 text-white rounded-full w-20 h-20 flex items-center justify-center transition duration-300 transform hover:scale-110 focus:outline-none"
+                    className="absolute bg-cherry hover:bg-cherry-dark text-white rounded-full w-20 h-20 flex items-center justify-center transition duration-300 transform hover:scale-110 focus:outline-none"
                     aria-label="Play video"
                   >
                     <Play className="h-10 w-10" />

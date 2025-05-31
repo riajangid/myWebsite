@@ -332,7 +332,7 @@ export default function ServicesSection() {
                     10% discount on parts
                   </li>
                 </ul>
-                <button className="w-full bg-cherry hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300 mt-6">
+                <button className="w-full bg-cherry hover:bg-cherry-dark text-white font-medium py-2 px-4 rounded-lg transition duration-300 mt-6">
                   Get Started
                 </button>
               </div>
@@ -413,7 +413,7 @@ export default function ServicesSection() {
                     4 hours of operator training
                   </li>
                 </ul>
-                <button className="w-full bg-cherry hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300 mt-6">
+                <button className="w-full bg-cherry hover:bg-cherry-dark text-white font-medium py-2 px-4 rounded-lg transition duration-300 mt-6">
                   Get Started
                 </button>
               </div>
@@ -503,7 +503,7 @@ export default function ServicesSection() {
                     Annual process optimization
                   </li>
                 </ul>
-                <button className="w-full bg-cherry hover:bg-blue-700 text-white font-medium py-2 px-4 rounded-lg transition duration-300 mt-6">
+                <button className="w-full bg-cherry hover:bg-cherry-dark text-white font-medium py-2 px-4 rounded-lg transition duration-300 mt-6">
                   Get Started
                 </button>
               </div>
@@ -521,7 +521,7 @@ export default function ServicesSection() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="#contact"
-              className="bg-white text-cherry hover:bg-blue-50 font-medium py-3 px-6 rounded-lg transition duration-300 inline-flex items-center justify-center"
+              className="bg-white text-cherry hover:bg-cherry-dark font-medium py-3 px-6 rounded-lg transition duration-300 inline-flex items-center justify-center"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
