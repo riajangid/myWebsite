@@ -347,11 +347,11 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
                   <div>
                     <h4 className="text-lg font-semibold text-gray-800">Address</h4>
                     <p className="text-gray-600">
-                      123 Chomu pulia
+                      8A, Vishwakarma Nagar-III, Sarna Dungar Industrial Area, Benar Road, Jhotwara
                       <br />
-                      Double Chomu Marwadi
-                      <br />
-                      Jaipur, Rajasthan 12345
+                      {/* Double Chomu Marwadi
+                      <br /> */}
+                      Jaipur-12, Rajasthan 
                     </p>
                   </div>
                 </div>
@@ -426,12 +426,12 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 
               <a
                 href="mailto:atc.sales90@gmail.com"
-                className="flex items-center justify-center bg-cherry hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 w-full"
+                className="flex items-center justify-center bg-blue-500 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 w-full
+"
               >
                 <Mail className="h-6 w-6 mr-2" />
                 Send Email
-              </a>
-
+              </a>h-48 overflow-hidden
               <a
                 href="tel:+15551234567"
                 className="flex items-center justify-center bg-gray-800 hover:bg-gray-900 text-white font-medium py-3 px-6 rounded-lg transition duration-300 w-full"

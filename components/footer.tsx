@@ -267,9 +267,9 @@ export default function Footer() {
                 <div className="flex items-start">
                   <MapPin className="h-5 w-5 text-gray-400 mr-3 mt-1" />
                   <span className="text-gray-400">
-                    123 Industrial Parkway, Suite 500
+                    8A, Vishwakarma Nagar-III, Sarna Dungar Industrial Area, Benar Road, Jhotwara
                     <br />
-                    Jaipur, Rajasthan
+                    Jaipur-12, Rajasthan
                   </span>
                 </div>
                 <div className="flex items-start">
@@ -278,7 +278,7 @@ export default function Footer() {
                 </div>
                 <div className="flex items-start">
                   <Mail className="h-5 w-5 text-gray-400 mr-3 mt-1" />
-                  <span className="text-gray-400">atc.sales90@gmail.com</span>
+                  <span className="text-gray-400">activetradecentre@yahoo.co.in</span>
                 </div>
                 <div className="flex items-start">
                   <Clock className="h-5 w-5 text-gray-400 mr-3 mt-1" />
