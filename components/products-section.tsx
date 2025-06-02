@@ -10,19 +10,19 @@ const productCategories = [
     title: "Cutting Machines",
     description: "Professional-grade stone cutting machines for precision work.",
     image:
-      "https://images.unsplash.com/photo-1525468568166-6f2cd17c7ec9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8c3RvbmUlMjUyMGN1dHRpbmclMjUyMG1hY2hpbmVyeSUyNTIwaW5kdXN0cmlhbCUyNTIwcHJvZmVzc2lvbmFsfGVufDB8MHx8fDE3NDc0MTQzMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://lh3.googleusercontent.com/d/15iZyBNeGfk4amdmm9HMFlxzacIa7V5A5",
   },
   {
     title: "Precision Tools",
     description: "Specialized tools for detailed stone cutting and finishing.",
     image:
-      "https://images.unsplash.com/photo-1532467411038-57680e3dc0f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Mnx8c3RvbmUlMjUyMGN1dHRpbmclMjUyMG1hY2hpbmVyeSUyNTIwaW5kdXN0cmlhbCUyNTIwcHJvZmVzc2lvbmFsfGVufDB8MHx8fDE3NDc0MTQzMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://lh3.googleusercontent.com/d/1KV0tbhl2rMZaMYfYLeOyRZs5eQSyezir",
   },
   {
     title: "Accessories",
     description: "Essential accessories to enhance your stone cutting operations.",
     image:
-      "https://images.unsplash.com/photo-1531859663445-5ced1d142f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8M3x8c3RvbmUlMjUyMGN1dHRpbmclMjUyMG1hY2hpbmVyeSUyNTIwaW5kdXN0cmlhbCUyNTIwcHJvZmVzc2lvbmFsfGVufDB8MHx8fDE3NDc0MTQzMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://lh3.googleusercontent.com/d/1ZBtH6Rewj2fbMegWj6f96QavCgIcYo6h",
   },
 ]
 
