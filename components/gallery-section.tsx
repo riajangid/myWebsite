@@ -7,47 +7,88 @@ import { X, ChevronLeft, ChevronRight, Eye } from "lucide-react"
 const galleryItems = [
   {
     image:
-      "https://images.unsplash.com/photo-1525468568166-6f2cd17c7ec9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8c3RvbmUlMjUyMGN1dHRpbmclMjUyMG1hY2hpbmVyeSUyNTIwcHJvZmVzc2lvbmFsJTI1MjBpbmR1c3RyaWFsfGVufDB8MHx8fDE3NDc0Njg1MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://lh3.googleusercontent.com/d/1txT8KYkMmcuhCEdRM5MLDldU3OHLa7w2",
     title: "Precision Cutting Surface",
     description:
       "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
     category: "machines",
   },
-  {
+      {
     image:
-      "https://images.unsplash.com/photo-1532467411038-57680e3dc0f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Mnx8c3RvbmUlMjUyMGN1dHRpbmclMjUyMG1hY2hpbmVyeSUyNTIwcHJvZmVzc2lvbmFsJTI1MjBpbmR1c3RyaWFsfGVufDB8MHx8fDE3NDc0Njg1MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    title: "Premium White Quartz",
-    description:
-      "Specialized cutting tools and techniques for luxury materials like this premium white quartz. Our equipment ensures clean, precise cuts with minimal waste.",
-    category: "tools",
-  },
-  {
-    image:
-      "https://images.unsplash.com/photo-1531859663445-5ced1d142f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8M3x8c3RvbmUlMjUyMGN1dHRpbmclMjUyMG1hY2hpbmVyeSUyNTIwcHJvZmVzc2lvbmFsJTI1MjBpbmR1c3RyaWFsfGVufDB8MHx8fDE3NDc0Njg1MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-    title: "Landscape Project",
-    description:
-      "A completed custom stone pathway installation using our professional-grade cutting equipment. This project showcases the versatility and precision of our machinery.",
-    category: "projects",
-  },
-  {
-    image:
-      "https://images.unsplash.com/photo-1509888522721-7e687235ed0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8NHx8c3RvbmUlMjUyMGN1dHRpbmclMjUyMG1hY2hpbmVyeSUyNTIwcHJvZmVzc2lvbmFsJTI1MjBpbmR1c3RyaWFsfGVufDB8MHx8fDE3NDc0Njg1MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://lh3.googleusercontent.com/d/1rYo9wa-u4MKsgt7wsbWMB7X88LXviH0y",
     title: "Industrial Cutter",
     description:
       "Our heavy-duty stone processing equipment in action. This industrial-grade machine is designed for high-volume production with consistent quality results.",
     category: "machines",
   },
+    {
+    image:
+      "https://lh3.googleusercontent.com/d/1eky1uO8Tjffb0c2Y8hENHuYLKbdDG1n0",
+    title: "Precision Cutting Surface",
+    description:
+      "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
+    category: "machines",
+  },
+    {
+    image:
+      "https://lh3.googleusercontent.com/d/1rzvL3cyI8_M04SStbyi3Elhn_bIKTYK9",
+    title: "Precision Cutting Surface",
+    description:
+      "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
+    category: "machines",
+  },
+    {
+    image:
+      "https://lh3.googleusercontent.com/d/1dHipfXdjg2OGMuoomqi2DJRYGxhOtiiH",
+    title: "Precision Cutting Surface",
+    description:
+      "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
+    category: "tools",
+  },
+        {
+    image:
+      "https://lh3.googleusercontent.com/d/1m_oxD3QUASq5GzyAbmWYvdwTbT3TkIS2",
+    title: "Precision Cutting Surface",
+    description:
+      "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
+    category: "tools",
+  },
+    {
+    image:
+      "https://lh3.googleusercontent.com/d/1JxBqjIu7lgk6XF5LcLqfoWNUFAfstQYG",
+    title: "Premium White Quartz",
+    description:
+      "Specialized cutting tools and techniques for luxury materials like this premium white quartz. Our equipment ensures clean, precise cuts with minimal waste.",
+    category: "tools",
+  },
+    {
+    image:
+      "https://lh3.googleusercontent.com/d/14-mOox7tqlQZtzOJ3VPyxEMrAogYYa0x",
+    title: "Precision Cutting Surface",
+    description:
+      "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
+    category: "tools",
+  },
   {
     image:
-      "https://images.unsplash.com/photo-1515133356580-c863eed555e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8NXx8c3RvbmUlMjUyMGN1dHRpbmclMjUyMG1hY2hpbmVyeSUyNTIwcHJvZmVzc2lvbmFsJTI1MjBpbmR1c3RyaWFsfGVufDB8MHx8fDE3NDc0Njg1MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://lh3.googleusercontent.com/d/1CjOVu72gCrxz1Ud-iTb9OwPlxwehQc_P",
     title: "Artisan Tools",
     description:
       "Specialized tools for detailed stonework used by master craftsmen. These precision instruments allow for intricate designs and fine finishing work.",
     category: "tools",
   },
-  {
+    {
     image:
-      "https://images.unsplash.com/photo-1535448033526-c0e85c9e6968?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Nnx8c3RvbmUlMjUyMGN1dHRpbmclMjUyMG1hY2hpbmVyeSUyNTIwcHJvZmVzc2lvbmFsJTI1MjBpbmR1c3RyaWFsfGVufDB8MHx8fDE3NDc0Njg1MjV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://lh3.googleusercontent.com/d/157km3_05ysWGLFbT7o8M4oHgaYJLi5br",
+    title: "Landscape Project",
+    description:
+      "A completed custom stone pathway installation using our professional-grade cutting equipment. This project showcases the versatility and precision of our machinery.",
+    category: "projects",
+  },
+
+    {
+    image:
+      "https://lh3.googleusercontent.com/d/1ZBtH6Rewj2fbMegWj6f96QavCgIcYo6h",
     title: "Architectural Project",
     description:
       "A completed custom stone facade installation for a commercial building. Our cutting machinery was used to create precise, uniform stone elements for this impressive structure.",
@@ -64,8 +105,9 @@ export default function GallerySection() {
   const filteredItems =
     activeFilter === "all" ? galleryItems : galleryItems.filter((item) => item.category === activeFilter)
 
-  const openModal = (index: number) => {
-    setCurrentImage(index)
+  const openModal = (index: number,image:string) => {
+    let actualIndex =galleryItems.findIndex(item => item.image === image)
+    setCurrentImage(actualIndex)
     setModalOpen(true)
     document.body.style.overflow = "hidden"
   }
@@ -147,7 +189,7 @@ export default function GallerySection() {
             <div key={index} className={`gallery-item ${item.category}`} data-category={item.category}>
               <div
                 className="relative overflow-hidden rounded-lg shadow-lg group cursor-pointer"
-                onClick={() => openModal(index)}
+                onClick={() => openModal(index,item.image)}
               >
                 <Image
                   src={item.image || "/placeholder.svg"}
@@ -170,7 +212,7 @@ export default function GallerySection() {
         </div>
 
         {/* Load More Button */}
-        <div className="text-center mt-10">
+        {/* <div className="text-center mt-10">
           <button
             id="load-more"
             className={`bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium py-3 px-8 rounded-lg transition duration-300 ${
@@ -181,8 +223,8 @@ export default function GallerySection() {
           >
             {loadMoreDisabled ? "No More Items" : "Load More"}
           </button>
-        </div>
-      </div>
+        </div>*/}
+      </div> 
 
       {/* Lightbox Modal */}
       {modalOpen && (

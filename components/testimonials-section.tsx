@@ -9,7 +9,7 @@ const testimonials = [
     name: "Robert Johnson",
     company: "Stone Works Inc.",
     image:
-      "https://images.unsplash.com/photo-1525468568166-6f2cd17c7ec9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8c3RvbmUlMjUyMGN1dHRpbmclMjUyMHRlc3RpbW9uaWFsJTI1MjBwcm9mZXNzaW9uYWwlMjUyMHNhZmV0eXxlbnwwfDB8fHwxNzQ3NDY5MDAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://lh3.googleusercontent.com/d/14TGTu1iKhdrnkUN3OvuwHNgk-6TgMLX6",
     quote:
       "The precision and reliability of the stone cutting machinery we purchased has transformed our production process. We've increased output by 40% while maintaining exceptional quality. The customer support team has been outstanding throughout the entire process.",
   },
@@ -17,7 +17,7 @@ const testimonials = [
     name: "Sarah Martinez",
     company: "Architectural Designs Co.",
     image:
-      "https://images.unsplash.com/photo-1532467411038-57680e3dc0f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Mnx8c3RvbmUlMjUyMGN1dHRpbmclMjUyMHRlc3RpbW9uaWFsJTI1MjBwcm9mZXNzaW9uYWwlMjUyMHNhZmV0eXxlbnwwfDB8fHwxNzQ3NDY5MDAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://lh3.googleusercontent.com/d/1K-4-YEehM6i9Bt1vQIwF2HkVFGGCChYo",
     quote:
       "As a small architectural firm, we needed precision tools that could handle delicate stone work. The equipment we purchased exceeded our expectations. The cuts are flawless, and the tools are incredibly durable. Their training program was comprehensive and got our team up to speed quickly.",
   },
@@ -25,7 +25,7 @@ const testimonials = [
     name: "Michael Thompson",
     company: "Thompson Landscaping",
     image:
-      "https://images.unsplash.com/photo-1531859663445-5ced1d142f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8M3x8c3RvbmUlMjUyMGN1dHRpbmclMjUyMHRlc3RpbW9uaWFsJTI1MjBwcm9mZXNzaW9uYWwlMjUyMHNhZmV0eXxlbnwwfDB8fHwxNzQ3NDY5MDAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://lh3.googleusercontent.com/d/1C0WHq4E2AJ8JX8-NLdFvIQC2iEyyIYFg",
     quote:
       "We've been in the landscaping business for over 20 years, and these are by far the best stone cutting tools we've ever used. The durability is impressive, and the precision allows us to create unique designs for our clients. Their maintenance service is prompt and professional.",
   },

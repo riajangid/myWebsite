@@ -321,7 +321,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
             <div className="bg-gray-50 rounded-xl shadow-lg overflow-hidden mb-8">
               <div className="h-48 overflow-hidden">
                 <Image
-                  src="https://images.unsplash.com/photo-1469289759076-d1484757abc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8bWFjaGluZXJ5JTI1MjBjdXN0b21lciUyNTIwc2VydmljZSUyNTIwcHJvZmVzc2lvbmFsJTI1MjBpbmR1c3RyaWFsfGVufDB8MHx8fDE3NDc0NjkwOTh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                  src="https://lh3.googleusercontent.com/d/1B3uRSR4nxPP34JJWHBQMLKLVlWb1AM-6"
                   alt="Customer service team"
                   width={600}
                   height={300}

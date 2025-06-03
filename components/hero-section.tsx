@@ -7,7 +7,7 @@ import Link from "next/link"
 const heroImages = [
   {
     src: "/images/img.jpg",
-    alt: "Stone cutting surface",
+    alt: "Stone cutting Exhibition",
   },
   {
     src: "https://lh3.googleusercontent.com/d/1rYo9wa-u4MKsgt7wsbWMB7X88LXviH0y",

@@ -242,7 +242,7 @@ export default function Footer() {
             <div className="grid grid-cols-2 gap-4">
               <div className="overflow-hidden rounded-lg h-40">
                 <Image
-                  src="https://images.unsplash.com/photo-1516937941344-00b4e0337589?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8aW5kdXN0cmlhbCUyNTIwZm9vdGVyJTI1MjBkZXNpZ24lMjUyMHZlY3RvciUyNTIwbWluaW1hbHxlbnwwfDB8fHwxNzQ3NDE0ODY4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+                  src="https://lh3.googleusercontent.com/d/1wSeHvWjTpsKg2lt801S7i5ZMKPxWVOe5"
                   alt="Industrial machinery"
                   width={300}
                   height={200}
@@ -251,7 +251,7 @@ export default function Footer() {
               </div>
               <div className="overflow-hidden rounded-lg h-40">
                 <Image
-                  src="https://images.unsplash.com/photo-1513828646384-e4d8ec30d2bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Mnx8aW5kdXN0cmlhbCUyNTIwZm9vdGVyJTI1MjBkZXNpZ24lMjUyMHZlY3RvciUyNTIwbWluaW1hbHxlbnwwfDB8fHwxNzQ3NDE0ODY4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+                  src="https://lh3.googleusercontent.com/d/1KHghJ08uT0gidFzHrTE94HAb8posxHq4"
                   alt="Industrial equipment"
                   width={300}
                   height={200}

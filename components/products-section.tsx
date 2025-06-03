@@ -10,29 +10,54 @@ const productCategories = [
     title: "Cutting Machines",
     description: "Professional-grade stone cutting machines for precision work.",
     image:
-      "https://lh3.googleusercontent.com/d/15iZyBNeGfk4amdmm9HMFlxzacIa7V5A5",
+      "https://lh3.googleusercontent.com/d/1txT8KYkMmcuhCEdRM5MLDldU3OHLa7w2",
   },
   {
     title: "Precision Tools",
     description: "Specialized tools for detailed stone cutting and finishing.",
     image:
-      "https://lh3.googleusercontent.com/d/1KV0tbhl2rMZaMYfYLeOyRZs5eQSyezir",
+      "https://lh3.googleusercontent.com/d/1rYo9wa-u4MKsgt7wsbWMB7X88LXviH0y",
   },
   {
     title: "Accessories",
     description: "Essential accessories to enhance your stone cutting operations.",
     image:
-      "https://lh3.googleusercontent.com/d/1ZBtH6Rewj2fbMegWj6f96QavCgIcYo6h",
+      "https://lh3.googleusercontent.com/d/1dHipfXdjg2OGMuoomqi2DJRYGxhOtiiH",
   },
+  
 ]
 
 const featuredProducts = [
   {
+    title: "Cutting Machines",
+    description: "Professional-grade stone cutting machines for precision work.",
+    price: 649,
+    originalPrice: 799,
+    image:
+      "https://lh3.googleusercontent.com/d/1txT8KYkMmcuhCEdRM5MLDldU3OHLa7w2",
+  },
+  {
+    title: "Precision Tools",
+    description: "Specialized tools for detailed stone cutting and finishing.",
+    price: 649,
+    originalPrice: 799,
+    image:
+      "https://lh3.googleusercontent.com/d/1rYo9wa-u4MKsgt7wsbWMB7X88LXviH0y",
+  },
+  {
+    title: "Accessories",
+    description: "Essential accessories to enhance your stone cutting operations.",
+    price: 649,
+    originalPrice: 799,
+    image:
+      "https://lh3.googleusercontent.com/d/1dHipfXdjg2OGMuoomqi2DJRYGxhOtiiH",
+  }
+  ,{
     title: "Stone Cutter Pro X5",
     description: "High-precision industrial stone cutting machine with advanced features.",
     price: 2499,
     image:
-      "https://images.unsplash.com/photo-1509888522721-7e687235ed0d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8NHx8c3RvbmUlMjUyMGN1dHRpbmclMjUyMG1hY2hpbmVyeSUyNTIwaW5kdXN0cmlhbCUyNTIwcHJvZmVzc2lvbmFsfGVufDB8MHx8fDE3NDc0MTQzMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://lh3.googleusercontent.com/d/157km3_05ysWGLFbT7o8M4oHgaYJLi5br",
     badge: { text: "New", color: "blue" },
   },
   {
@@ -40,7 +65,7 @@ const featuredProducts = [
     description: "Professional-grade diamond blade set for precise cutting of various stone types.",
     price: 899,
     image:
-      "https://images.unsplash.com/photo-1515133356580-c863eed555e2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8NXx8c3RvbmUlMjUyMGN1dHRpbmclMjUyMG1hY2hpbmVyeSUyNTIwaW5kdXN0cmlhbCUyNTIwcHJvZmVzc2lvbmFsfGVufDB8MHx8fDE3NDc0MTQzMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://lh3.googleusercontent.com/d/1SQr0_o5cdGinHRn5jlbTjB8x8IGj1t5H",
     badge: { text: "Best Seller", color: "green" },
   },
   {
@@ -49,17 +74,26 @@ const featuredProducts = [
     price: 649,
     originalPrice: 799,
     image:
-      "https://images.unsplash.com/photo-1535448033526-c0e85c9e6968?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Nnx8c3RvbmUlMjUyMGN1dHRpbmclMjUyMG1hY2hpbmVyeSUyNTIwaW5kdXN0cmlhbCUyNTIwcHJvZmVzc2lvbmFsfGVufDB8MHx8fDE3NDc0MTQzMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "https://lh3.googleusercontent.com/d/1JxBqjIu7lgk6XF5LcLqfoWNUFAfstQYG",
     badge: { text: "Sale", color: "red" },
-  },
+  }
 ]
+
 
 export default function ProductsSection() {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [carouselWidth, setCarouselWidth] = useState(0)
   const carouselRef = useRef<HTMLDivElement>(null)
   const containerRef = useRef<HTMLDivElement>(null)
+    const chunkedProducts = (arr:any, chunkSize:number) => {
+    const result = []
+    for (let i = 0; i < arr.length; i += chunkSize) {
+      result.push(arr.slice(i, i + chunkSize))
+    }
+    return result
+  }
 
+  const productChunks = chunkedProducts(featuredProducts, 3)
   useEffect(() => {
     const updateWidth = () => {
       if (containerRef.current) {
@@ -107,38 +141,48 @@ export default function ProductsSection() {
         </div>
 
         {/* Product Categories */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-          {productCategories.map((category, index) => (
+        
+        
+          <div className="relative">
+          <div
+            ref={containerRef}
+            className="flex overflow-hidden w-full"
+          >
             <div
-              key={index}
-              className="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:shadow-xl hover:-translate-y-1"
+              ref={carouselRef}
+              className="flex transition-transform duration-300"
             >
-              <div className="h-48 overflow-hidden">
-                <Image
-                  src={category.image || "/placeholder.svg"}
-                  alt={category.title}
-                  width={400}
-                  height={200}
-                  className="w-full h-full object-cover transition duration-300 hover:scale-105"
-                />
-              </div>
-              <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">{category.title}</h3>
-                <p className="text-gray-600 mb-4">{category.description}</p>
-                <Link
-                  href="#"
-                  className="inline-block bg-cherry hover:bg-cherry-dark text-white font-medium py-2 px-4 rounded transition duration-300"
-                >
-                  View Collection
-                </Link>
-              </div>
+              {featuredProducts.map((product, index) => (
+                <div key={index} className="flex-shrink-0 w-full md:w-1/3 px-4 h-full p-2">
+                  <div className="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:shadow-xl hover:-translate-y-1">
+                    <div className="h-64 overflow-hidden">
+                      <Image
+                        src={product.image || "/placeholder.svg"}
+                        alt={product.title}
+                        width={400}
+                        height={200}
+                        className="w-full h-full object-cover transition duration-300 hover:scale-105"
+                      />
+                    </div>
+                    <div className="p-6">
+                      <h3 className="text-xl font-semibold text-gray-800 mb-2">{product.title}</h3>
+                      <p className="text-gray-600 mb-4">{product.description}</p>
+                      <p className="text-gray-800 font-semibold">${product.price}</p>
+                      {product.originalPrice && (
+                        <span className="text-sm text-gray-400 line-through">
+                          ${product.originalPrice}
+                        </span>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
-
+          </div>
+          </div>
         {/* Pagination Dots */}
         <div className="flex justify-center mt-6 space-x-2">
-          {featuredProducts.map((_, index) => (
+          {productChunks.map((_, index) => (
             <button
               key={index}
               className={`w-3 h-3 rounded-full ${
@@ -152,7 +196,7 @@ export default function ProductsSection() {
         {/* View All Products Button */}
         <div className="text-center mt-12">
           <Link
-            href="#"
+            href="#gallery"
             className="inline-block bg-gray-800 hover:bg-gray-950 text-white font-medium py-3 px-8 rounded-lg transition duration-300"
           >
             View All Products

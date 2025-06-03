@@ -58,7 +58,7 @@ export default function AboutSection() {
           <div className="order-1 lg:order-2">
             <div className="relative rounded-xl overflow-hidden shadow-xl h-[400px]">
               <Image
-                src="https://images.unsplash.com/photo-1525468568166-6f2cd17c7ec9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8c3RvbmUlMjUyMGN1dHRpbmclMjUyMG1hY2hpbmVyeSUyNTIwcHJvZmVzc2lvbmFsJTI1MjBicmlnaHR8ZW58MHwwfHx8MTc0NzQxNDQwNXww&ixlib=rb-4.1.0&q=80&w=1080"
+                src="https://lh3.googleusercontent.com/d/1eNGMmD9SqJrZED_mG8OtCF5k243Jmq96"
                 alt="Stone cutting surface"
                 fill
                 className="object-cover"
@@ -112,7 +112,7 @@ export default function AboutSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
               <Image
-                src="https://images.unsplash.com/photo-1532467411038-57680e3dc0f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Mnx8c3RvbmUlMjUyMGN1dHRpbmclMjUyMG1hY2hpbmVyeSUyNTIwcHJvZmVzc2lvbmFsJTI1MjBicmlnaHR8ZW58MHwwfHx8MTc0NzQxNDQwNXww&ixlib=rb-4.1.0&q=80&w=1080"
+                src="https://lh3.googleusercontent.com/d/1vTR8IIUb_QOCLnf2hLjxJfOgEQ9DsiXo"
                 alt="Stone cutting process"
                 width={600}
                 height={400}
@@ -254,11 +254,11 @@ export default function AboutSection() {
             </div>
             <div className="hidden md:block">
               <Image
-                src="https://images.unsplash.com/photo-1531859663445-5ced1d142f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8M3x8c3RvbmUlMjUyMGN1dHRpbmclMjUyMG1hY2hpbmVyeSUyNTIwcHJvZmVzc2lvbmFsJTI1MjBicmlnaHR8ZW58MHwwfHx8MTc0NzQxNDQwNXww&ixlib=rb-4.1.0&q=80&w=1080"
+                src="https://lh3.googleusercontent.com/d/1GkDA19aC1-ciy4ax-I_M07sXQ3B9Covw"
                 alt="Our impact"
                 width={600}
-                height={600}
-                className="w-full h-full object-cover"
+                height={400}
+                className="w-full h-auto rounded-xl shadow-lg"
               />
             </div>
           </div>
