@@ -6,15 +6,15 @@ import Link from "next/link"
 
 const heroImages = [
   {
-    src: "https://images.unsplash.com/photo-1525468568166-6f2cd17c7ec9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8MXx8c3RvbmUlMjUyMGN1dHRpbmclMjUyMG1hY2hpbmVyeSUyNTIwaW5kdXN0cmlhbCUyNTIwcHJvZmVzc2lvbmFsfGVufDB8MHx8fDE3NDc0MTQxNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    src: "/images/img.jpg",
     alt: "Stone cutting surface",
   },
   {
-    src: "https://images.unsplash.com/photo-1532467411038-57680e3dc0f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8Mnx8c3RvbmUlMjUyMGN1dHRpbmclMjUyMG1hY2hpbmVyeSUyNTIwaW5kdXN0cmlhbCUyNTIwcHJvZmVzc2lvbmFsfGVufDB8MHx8fDE3NDc0MTQxNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    src: "https://lh3.googleusercontent.com/d/1rYo9wa-u4MKsgt7wsbWMB7X88LXviH0y",
     alt: "White quartz texture",
   },
   {
-    src: "https://images.unsplash.com/photo-1531859663445-5ced1d142f67?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w2MzQ2fDB8MXxzZWFyY2h8M3x8c3RvbmUlMjUyMGN1dHRpbmclMjUyMG1hY2hpbmVyeSUyNTIwaW5kdXN0cmlhbCUyNTIwcHJvZmVzc2lvbmFsfGVufDB8MHx8fDE3NDc0MTQxNjh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    src: "https://lh3.googleusercontent.com/d/1ZBtH6Rewj2fbMegWj6f96QavCgIcYo6h",
     alt: "Rocky path",
   },
 ]
@@ -40,8 +40,7 @@ export default function HeroSection() {
               Active Trade Centre
             </h1>
             <p className="text-lg text-gray-600 mb-6">
-              High-performance machinery and tools for precision stone cutting, designed for professionals who demand
-              excellence.
+              Cutting through stone like a hot knife through butter — our machines don’t just cut, they carve your path to perfection.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link

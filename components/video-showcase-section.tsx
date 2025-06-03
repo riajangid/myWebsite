@@ -131,7 +131,7 @@ export default function VideoShowcaseSection() {
         </div>
 
         {/* Video Thumbnails */}
-        <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">More Videos</h3>
+        {/* <h3 className="text-2xl font-bold text-gray-800 mb-6 text-center">More Videos</h3>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
           {videoData.map((video, index) => (
@@ -157,7 +157,7 @@ export default function VideoShowcaseSection() {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
 
         {/* Pagination */}
         <div className="flex justify-center space-x-2 mb-8">
