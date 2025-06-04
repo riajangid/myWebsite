@@ -35,12 +35,12 @@ export default function HeroSection() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           {/* Hero Content */}
-          <div  className="w-full md:w-1/2 mb-8 md:mb-0 md:pr-8 animate-fade-in">
-            {/* <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4">
+          <div className="w-full md:w-1/2 mb-8 md:mb-0 md:pr-8 animate-fade-in">
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4">
               Active Trade Centre
-            </h1> */}
+            </h1>
             <p className="text-lg text-gray-600 mb-6">
-              Cutting through stone like a hot knife cut through butter — our machines don’t just cut, they carve your path to perfection.
+              Cutting through stone like a hot knife through butter — our machines don’t just cut, they carve your path to perfection.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
