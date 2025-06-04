@@ -11,7 +11,7 @@ const testimonials = [
     image:
       "https://lh3.googleusercontent.com/d/14TGTu1iKhdrnkUN3OvuwHNgk-6TgMLX6",
     quote:
-      "The precision and reliability of the stone cutting machinery we purchased has transformed our production process. We've increased output by 40% while maintaining exceptional quality. The customer support team has been outstanding throughout the entire process.",
+      "The precision and reliabilit of the stone cutting machinery we purchased has transformed our production process. We've increased output by 40% while maintaining exceptional quality. The customer support team has been outstanding throughout the entire process.",
   },
   {
     name: "Sarah Martinez",
