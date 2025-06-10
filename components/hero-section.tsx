@@ -34,12 +34,8 @@ export default function HeroSection() {
     <section id="home" className="pt-24 md:pt-32 pb-12 md:pb-20 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
-          {/* Hero Content */}
           <div className="w-full md:w-1/2 mb-8 md:mb-0 md:pr-8 animate-fade-in">
-            {/* <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4">
-              Active Trade Centre
-            </h1> */}
-            <h1 className="text-4xl font-semibold text-gray-800 mb-6">
+            <h1 className="text-xl font-semibold text-gray-800 mb-6">
               Cutting through stone like a hot knife cut through butter — our machines don’t just cut, they carve your path to perfection.
             </h1>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -58,10 +54,8 @@ export default function HeroSection() {
             </div>
           </div>
 
-          {/* Hero Image Slider */}
           <div className="w-full md:w-1/2 relative">
             <div className="relative h-[400px] md:h-[500px] overflow-hidden rounded-xl shadow-xl">
-              {/* Image Slider */}
               <div id="hero-slider" className="w-full h-full">
                 {heroImages.map((image, index) => (
                   <div
@@ -80,8 +74,6 @@ export default function HeroSection() {
                   </div>
                 ))}
               </div>
-
-              {/* Slider Navigation */}
               <div className="absolute bottom-4 left-0 right-0 flex justify-center space-x-2">
                 {heroImages.map((_, index) => (
                   <button
@@ -97,8 +89,6 @@ export default function HeroSection() {
             </div>
           </div>
         </div>
-
-        {/* Quick Stats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 text-center">
           <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
             <div className="text-3xl font-bold text-cherry mb-2">15+ Years</div>
