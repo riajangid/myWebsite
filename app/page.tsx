@@ -19,12 +19,12 @@ export default function Home() {
           <meta name="robots" content="index, follow" />
           <meta property="og:title" content="Diamond Wire Saw Machines & Cutting Tools - Active Trade Centre" />
           <meta property="og:description" content="Discover high-quality wire saw machines, diamond wire saws, and stone cutting tools at Active Trade Centre. We offer a wide range of industrial cutting solutions." />
-          <meta property="og:image" content="https://yourwebsite.com/path-to-image.jpg" />
-          <meta property="og:url" content="https://yourwebsite.com" />
-          <meta name="twitter:card" content="summary_large_image" />
+          <meta property="og:image" content="https://res.cloudinary.com/dfigcriri/image/upload/v1749576524/ATC_LOGO.jpeg_hufwqj.jpg" />
+          <meta property="og:url" content="https://www.diamondwiresawmachines.com" />
+          <meta name="twitter:card" content="https://res.cloudinary.com/dfigcriri/image/upload/v1749576524/ATC_LOGO.jpeg_hufwqj.jpg" />
           <meta name="twitter:title" content="Diamond Wire Saw Machines & Cutting Tools - Active Trade Centre" />
           <meta name="twitter:description" content="Top-quality wire saw machines, cutting tools, and industrial parts for stone, concrete, and quarry operations." />
-          <meta name="twitter:image" content="https://yourwebsite.com/path-to-image.jpg" />
+          <meta name="twitter:image" content="https://res.cloudinary.com/dfigcriri/image/upload/v1749576524/ATC_LOGO.jpeg_hufwqj.jpg" />
       </Head>
       <Header />
       <main id="main-content" className="flex-1 relative h-full">

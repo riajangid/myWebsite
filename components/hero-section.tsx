@@ -6,7 +6,7 @@ import Link from "next/link"
 
 const heroImages = [
   {
-    src: "/images/img.jpg",
+    src: "https://res.cloudinary.com/dfigcriri/image/upload/v1749576306/img_mhnndt.jpg",
     alt: "Stone cutting Exhibition",
   },
   {

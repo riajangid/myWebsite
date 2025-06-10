@@ -26,7 +26,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
-            <img src="/images/ATC_LOGO.jpeg.jpg" alt="Logo" className="h-14 w-16 mr-2" />
+            <img src="https://res.cloudinary.com/dfigcriri/image/upload/v1749576524/ATC_LOGO.jpeg_hufwqj.jpg" alt="Logo" className="h-14 w-16 mr-2" />
             <Link href="#" className="text-3xl font-dmSerif font-extrabold text-gray-800">
               Active Trade Centre
             </Link>
