@@ -10,7 +10,7 @@ const productCategories = [
     title: "Cutting Machines",
     description: "Professional-grade stone cutting machines for precision work.",
     image:
-      "https://lh3.googleusercontent.com/d/1txT8KYkMmcuhCEdRM5MLDldU3OHLa7w2",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749665779/8_hwxve8.jpg",
   },
   {
     title: "Precision Tools",
@@ -34,7 +34,7 @@ const featuredProducts = [
     price: 649,
     originalPrice: 799,
     image:
-      "https://lh3.googleusercontent.com/d/1txT8KYkMmcuhCEdRM5MLDldU3OHLa7w2",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749665779/8_hwxve8.jpg",
   },
   {
     title: "Precision Tools",
@@ -42,7 +42,7 @@ const featuredProducts = [
     price: 649,
     originalPrice: 799,
     image:
-      "https://lh3.googleusercontent.com/d/1rYo9wa-u4MKsgt7wsbWMB7X88LXviH0y",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661017/D.W.SAW_60_HP_2013_1_aofmq9.jpg",
   },
   {
     title: "Accessories",
@@ -50,14 +50,14 @@ const featuredProducts = [
     price: 649,
     originalPrice: 799,
     image:
-      "https://lh3.googleusercontent.com/d/1dHipfXdjg2OGMuoomqi2DJRYGxhOtiiH",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749666030/10_w4voxa.jpg",
   }
   ,{
     title: "Stone Cutter Pro X5",
     description: "High-precision industrial stone cutting machine with advanced features.",
     price: 2499,
     image:
-      "https://lh3.googleusercontent.com/d/157km3_05ysWGLFbT7o8M4oHgaYJLi5br",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749666110/11_jefjfi.jpg",
     badge: { text: "New", color: "blue" },
   },
   {
@@ -65,7 +65,7 @@ const featuredProducts = [
     description: "Professional-grade diamond blade set for precise cutting of various stone types.",
     price: 899,
     image:
-      "https://lh3.googleusercontent.com/d/1SQr0_o5cdGinHRn5jlbTjB8x8IGj1t5H",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749666229/12_tlodxc.jpg",
     badge: { text: "Best Seller", color: "green" },
   },
   {
@@ -74,7 +74,7 @@ const featuredProducts = [
     price: 649,
     originalPrice: 799,
     image:
-      "https://lh3.googleusercontent.com/d/1JxBqjIu7lgk6XF5LcLqfoWNUFAfstQYG",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661095/CAT41CN80SD_wl8lty.jpg",
     badge: { text: "Sale", color: "red" },
   }
 ]
@@ -167,12 +167,12 @@ export default function ProductsSection() {
                     <div className="p-6">
                       <h3 className="text-xl font-semibold text-gray-800 mb-2">{product.title}</h3>
                       <p className="text-gray-600 mb-4">{product.description}</p>
-                      <p className="text-gray-800 font-semibold">${product.price}</p>
-                      {product.originalPrice && (
+                      <p className="text-red-800 font-semibold">Contact Us for best price</p>
+                      {/* {product.originalPrice && (
                         <span className="text-sm text-gray-400 line-through">
                           ${product.originalPrice}
                         </span>
-                      )}
+                      )} */}
                     </div>
                   </div>
                 </div>

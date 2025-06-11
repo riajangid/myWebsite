@@ -6,17 +6,17 @@ import Link from "next/link"
 
 const heroImages = [
   {
-    src: "https://res.cloudinary.com/dfigcriri/image/upload/v1749576306/img_mhnndt.jpg",
+    src: "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661282/IMG_20150131_163023_xonnfd.jpg",
     alt: "Stone cutting Exhibition",
   },
   {
-    src: "https://lh3.googleusercontent.com/d/1rYo9wa-u4MKsgt7wsbWMB7X88LXviH0y",
+    src: "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661017/D.W.SAW_60_HP_2013_1_aofmq9.jpg",
     alt: "White quartz texture",
   },
   {
-    src: "https://lh3.googleusercontent.com/d/1ZBtH6Rewj2fbMegWj6f96QavCgIcYo6h",
+    src: "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749665636/7img_nyhsng.jpg",
     alt: "Rocky path",
-  },
+  }
 ]
 
 export default function HeroSection() {
@@ -91,7 +91,7 @@ export default function HeroSection() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 text-center">
           <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
-            <div className="text-3xl font-bold text-cherry mb-2">15+ Years</div>
+            <div className="text-3xl font-bold text-cherry mb-2">30+ Years</div>
             <p className="text-gray-600">Industry Experience</p>
           </div>
           <div className="bg-gray-50 p-6 rounded-lg shadow-sm">

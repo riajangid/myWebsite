@@ -7,23 +7,31 @@ import { X, ChevronLeft, ChevronRight, Eye } from "lucide-react"
 const galleryItems = [
   {
     image:
-      "https://lh3.googleusercontent.com/d/1txT8KYkMmcuhCEdRM5MLDldU3OHLa7w2",
-    title: "Precision Cutting Surface",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749665779/8_hwxve8.jpg",
+    title: "Diamond Wire Saw Machine 20HP",
     description:
-      "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
+      "Motor and Spare parts can be customize as per the requirement. Motor available(Alfa, El+mo).",
     category: "machines",
   },
       {
     image:
-      "https://lh3.googleusercontent.com/d/1rYo9wa-u4MKsgt7wsbWMB7X88LXviH0y",
-    title: "Industrial Cutter",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661017/D.W.SAW_60_HP_2013_1_aofmq9.jpg",
+    title: "Diamond Wire Saw Machine 40HP",
     description:
-      "Our heavy-duty stone processing equipment in action. This industrial-grade machine is designed for high-volume production with consistent quality results.",
+      "Motor and Spare parts can be customize as per the requirement. Motor available(Alfa, El+mo).",
     category: "machines",
   },
     {
     image:
-      "https://lh3.googleusercontent.com/d/1eky1uO8Tjffb0c2Y8hENHuYLKbdDG1n0",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749665880/9_wkv2tz.jpg",
+    title: "Current Machine Stock",
+    description:
+      "Ready for installation.",
+    category: "machines",
+  },
+    {
+    image:
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661018/Elct.Panel_60HP_xtcdhp.jpg",
     title: "Precision Cutting Surface",
     description:
       "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
@@ -31,15 +39,7 @@ const galleryItems = [
   },
     {
     image:
-      "https://lh3.googleusercontent.com/d/1rzvL3cyI8_M04SStbyi3Elhn_bIKTYK9",
-    title: "Precision Cutting Surface",
-    description:
-      "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
-    category: "machines",
-  },
-    {
-    image:
-      "https://lh3.googleusercontent.com/d/1dHipfXdjg2OGMuoomqi2DJRYGxhOtiiH",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749666030/10_w4voxa.jpg",
     title: "Precision Cutting Surface",
     description:
       "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
@@ -47,7 +47,7 @@ const galleryItems = [
   },
         {
     image:
-      "https://lh3.googleusercontent.com/d/1m_oxD3QUASq5GzyAbmWYvdwTbT3TkIS2",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661440/IMG-20160101-WA0033_-_Copy_odsg5j.jpg",
     title: "Precision Cutting Surface",
     description:
       "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
@@ -55,7 +55,7 @@ const galleryItems = [
   },
     {
     image:
-      "https://lh3.googleusercontent.com/d/1JxBqjIu7lgk6XF5LcLqfoWNUFAfstQYG",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749666229/12_tlodxc.jpg",
     title: "Premium White Quartz",
     description:
       "Specialized cutting tools and techniques for luxury materials like this premium white quartz. Our equipment ensures clean, precise cuts with minimal waste.",
@@ -63,7 +63,7 @@ const galleryItems = [
   },
     {
     image:
-      "https://lh3.googleusercontent.com/d/14-mOox7tqlQZtzOJ3VPyxEMrAogYYa0x",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661095/CAT41CN80SD_wl8lty.jpg",
     title: "Precision Cutting Surface",
     description:
       "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
@@ -71,7 +71,7 @@ const galleryItems = [
   },
   {
     image:
-      "https://lh3.googleusercontent.com/d/1CjOVu72gCrxz1Ud-iTb9OwPlxwehQc_P",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661395/CAT49CN70CT_1_j6u4qf.jpg",
     title: "Artisan Tools",
     description:
       "Specialized tools for detailed stonework used by master craftsmen. These precision instruments allow for intricate designs and fine finishing work.",
@@ -79,19 +79,18 @@ const galleryItems = [
   },
     {
     image:
-      "https://lh3.googleusercontent.com/d/157km3_05ysWGLFbT7o8M4oHgaYJLi5br",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749666110/11_jefjfi.jpg",
     title: "Landscape Project",
     description:
       "A completed custom stone pathway installation using our professional-grade cutting equipment. This project showcases the versatility and precision of our machinery.",
     category: "projects",
   },
-
-    {
+  {
     image:
-      "https://lh3.googleusercontent.com/d/1ZBtH6Rewj2fbMegWj6f96QavCgIcYo6h",
-    title: "Architectural Project",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749665636/7img_nyhsng.jpg",
+    title: "Fully tested machine with panel",
     description:
-      "A completed custom stone facade installation for a commercial building. Our cutting machinery was used to create precise, uniform stone elements for this impressive structure.",
+      "Ready for installation",
     category: "projects",
   },
 ]

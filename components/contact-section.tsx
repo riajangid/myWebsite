@@ -321,7 +321,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
             <div className="bg-gray-50 rounded-xl shadow-lg overflow-hidden mb-8">
               <div className="h-48 overflow-hidden">
                 <Image
-                  src="https://lh3.googleusercontent.com/d/1B3uRSR4nxPP34JJWHBQMLKLVlWb1AM-6"
+                  src="https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661599/5_dttp94.jpg"
                   alt="Customer service team"
                   width={600}
                   height={300}
@@ -363,9 +363,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
                   <div>
                     <h4 className="text-lg font-semibold text-gray-800">Phone</h4>
                     <p className="text-gray-600">
-                      Sales: +1 (555) 123-4567
-                      <br />
-                      Support: +1 (555) 987-6543
+                      Support: +91 9001544899
                     </p>
                   </div>
                 </div>
@@ -408,7 +406,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
             {/* Direct Contact Buttons */}
             <div className="space-y-4">
               <a
-                href="https://wa.me/15551234567"
+                href="https://wa.me/+919001544899"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-6 rounded-lg transition duration-300 w-full"
@@ -433,7 +431,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
                 Send Email
               </a>
               <a
-                href="tel:+15551234567"
+                href="tel:+919001544899"
                 className="flex items-center justify-center bg-gray-800 hover:bg-gray-900 text-white font-medium py-3 px-6 rounded-lg transition duration-300 w-full"
               >
                 <Phone className="h-6 w-6 mr-2" />

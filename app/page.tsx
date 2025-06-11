@@ -33,7 +33,7 @@ export default function Home() {
         <GallerySection />
         <AboutSection />
         {/* <ServicesSection /> */}
-        <VideoShowcaseSection />
+        {/* <VideoShowcaseSection /> */}
         <TestimonialsSection />
         <ContactSection />
       </main>

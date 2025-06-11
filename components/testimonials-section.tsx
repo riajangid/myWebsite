@@ -9,7 +9,7 @@ const testimonials = [
     name: "Robert Johnson",
     company: "Stone Works Inc.",
     image:
-      "https://lh3.googleusercontent.com/d/14TGTu1iKhdrnkUN3OvuwHNgk-6TgMLX6",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661018/D.W.SAW_60_2013_front_view_ugnwc1.jpg",
     quote:
       "The precision and reliabilit of the stone cutting machinery we purchased has transformed our production process. We've increased output by 40% while maintaining exceptional quality. The customer support team has been outstanding throughout the entire process.",
   },
@@ -17,7 +17,7 @@ const testimonials = [
     name: "Sarah Martinez",
     company: "Architectural Designs Co.",
     image:
-      "https://lh3.googleusercontent.com/d/1K-4-YEehM6i9Bt1vQIwF2HkVFGGCChYo",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749666860/16_rds3pi.jpg",
     quote:
       "As a small architectural firm, we needed precision tools that could handle delicate stone work. The equipment we purchased exceeded our expectations. The cuts are flawless, and the tools are incredibly durable. Their training program was comprehensive and got our team up to speed quickly.",
   },
@@ -25,7 +25,7 @@ const testimonials = [
     name: "Michael Thompson",
     company: "Thompson Landscaping",
     image:
-      "https://lh3.googleusercontent.com/d/1C0WHq4E2AJ8JX8-NLdFvIQC2iEyyIYFg",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661598/6_dxaowa.jpg",
     quote:
       "We've been in the landscaping business for over 20 years, and these are by far the best stone cutting tools we've ever used. The durability is impressive, and the precision allows us to create unique designs for our clients. Their maintenance service is prompt and professional.",
   },
@@ -174,7 +174,7 @@ export default function TestimonialsSection() {
             <p className="text-gray-600">Customer Satisfaction</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
-            <div className="text-3xl font-bold text-cherry mb-2">15+</div>
+            <div className="text-3xl font-bold text-cherry mb-2">30+</div>
             <p className="text-gray-600">Years of Experience</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">

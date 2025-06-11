@@ -18,9 +18,7 @@ export default function AboutSection() {
           <div className="order-2 lg:order-1">
             <h3 className="text-2xl font-bold text-gray-800 mb-4">Our Story</h3>
             <p className="text-gray-600 mb-4">
-              With over 30+ years of experience in the stone cutting industry, we've built a reputation for excellence
-              and innovation. Our journey began with a simple mission: to provide professional-grade machinery that
-              delivers precision, reliability, and value.
+              With over 30 years of market experience since 1993, we have delivered hundreds of products without fail in quality. With our excellent after-sales service, we lead the market at the very front of the queue. At Active Trade Center, we deliver products with zero defects, no delays, and provide one of the best after-sales services.
             </p>
             <p className="text-gray-600 mb-6">
               Today, we serve clients across the construction, architecture, and design industries, offering
@@ -58,7 +56,7 @@ export default function AboutSection() {
           <div className="order-1 lg:order-2">
             <div className="relative rounded-xl overflow-hidden shadow-xl h-[400px]">
               <Image
-                src="https://lh3.googleusercontent.com/d/1eNGMmD9SqJrZED_mG8OtCF5k243Jmq96"
+                src="https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661602/1_tzif8l.jpg"
                 alt="Stone cutting surface"
                 fill
                 className="object-cover"
@@ -112,7 +110,7 @@ export default function AboutSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
               <Image
-                src="https://lh3.googleusercontent.com/d/1vTR8IIUb_QOCLnf2hLjxJfOgEQ9DsiXo"
+                src="https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661600/2_cebrk4.jpg"
                 alt="Stone cutting process"
                 width={600}
                 height={400}
@@ -223,8 +221,8 @@ export default function AboutSection() {
                     </svg>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold text-gray-800">30+</div>
-                    <div className="text-gray-600">Countries Served</div>
+                    <div className="text-3xl font-bold text-gray-800">15+</div>
+                    <div className="text-gray-600">Team of People</div>
                   </div>
                 </div>
 
@@ -254,7 +252,7 @@ export default function AboutSection() {
             </div>
             <div className="hidden md:block">
               <Image
-                src="https://lh3.googleusercontent.com/d/1GkDA19aC1-ciy4ax-I_M07sXQ3B9Covw"
+                src="https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661600/3_kjopbl.jpg"
                 alt="Our impact"
                 width={600}
                 height={400}
