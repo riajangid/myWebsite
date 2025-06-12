@@ -19,6 +19,9 @@ const config = {
       },
     },
     extend: {
+      screens: {
+        '1030': '1030px', // Custom breakpoint at 1030px
+      },
       fontFamily: {
         dmSerif: ['"DM Serif Text"', 'serif'], 
         robotoCondensed: ['"Roboto Condensed"', 'sans-serif'],
