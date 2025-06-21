@@ -285,10 +285,10 @@ export default function Footer() {
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-500 text-sm mb-4 md:mb-0">&copy; 2025 Active Trade Center. All rights reserved.</p>
             <div className="flex flex-wrap justify-center gap-4">
-              <Link href="https://atc-five.vercel.app/privacy-policy.html" className="text-gray-500 hover:text-gray-400 text-sm transition duration-300">
+              <Link href="https://privacy-policy.diamondwiresawmachines.com/" className="text-gray-500 hover:text-gray-400 text-sm transition duration-300">
                 Privacy Policy
               </Link>
-              <Link href="https://atc-five.vercel.app/terms-of-service.html" className="text-gray-500 hover:text-gray-400 text-sm transition duration-300">
+              <Link href="https://terms-conditions.diamondwiresawmachines.com/" className="text-gray-500 hover:text-gray-400 text-sm transition duration-300">
                 Terms of Service
               </Link>
               {/* <Link href="#" className="text-gray-500 hover:text-gray-400 text-sm transition duration-300">
