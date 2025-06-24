@@ -24,10 +24,10 @@ export default function AboutSection() {
               Today, we serve clients across the construction, architecture, and design industries, offering
               cutting-edge solutions for all stone processing needs.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 ">
               <Link
                 href="#contact"
-                className="bg-cherry hover:bg-cherry-dark text-white font-medium py-3 px-6 rounded-lg transition duration-300 text-center inline-flex items-center justify-center"
+                className="bg-cherry hover:bg-cherry-dark hover:scale-105 text-white font-medium py-3 px-6 rounded-lg transition duration-300 text-center inline-flex items-center justify-center"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -47,7 +47,7 @@ export default function AboutSection() {
               </Link>
               <Link
                 href="#products"
-                className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium py-3 px-6 rounded-lg transition duration-300 text-center"
+                className="bg-gray-200 hover:bg-gray-300 hover:scale-105 text-gray-800 font-medium py-3 px-6 rounded-lg transition duration-300 text-center"
               >
                 Explore Products
               </Link>
@@ -266,7 +266,7 @@ export default function AboutSection() {
         <div className="mt-16 text-center">
           <Link
             href="#contact"
-            className="inline-block bg-cherry hover:bg-cherry-dark text-white font-medium py-3 px-8 rounded-lg transition duration-300"
+            className="inline-block bg-cherry hover:bg-cherry-dark hover:scale-105 text-white font-medium py-3 px-8 rounded-lg transition duration-300"
           >
             Get in Touch
           </Link>

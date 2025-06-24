@@ -197,7 +197,7 @@ export default function ProductsSection() {
         <div className="text-center mt-12">
           <Link
             href="#gallery"
-            className="inline-block bg-gray-800 hover:bg-gray-950 text-white font-medium py-3 px-8 rounded-lg transition duration-300"
+            className="hover:scale-105 hover:shadow-lg inline-block bg-gray-800 hover:bg-gray-950 text-white font-medium py-3 px-8 rounded-lg transition duration-300"
           >
             View All Products
           </Link>

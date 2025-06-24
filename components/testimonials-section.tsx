@@ -165,19 +165,19 @@ export default function TestimonialsSection() {
 
         {/* Testimonial Stats */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mt-16 text-center">
-          <div className="bg-white p-6 rounded-lg shadow-md">
+          <div className="bg-white p-6 rounded-lg shadow-md transform transition duration-300 hover:shadow-lg hover:-translate-y-1">
             <div className="text-3xl font-bold text-cherry mb-2">500+</div>
             <p className="text-gray-600">Satisfied Customers</p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md">
+          <div className="bg-white p-6 rounded-lg shadow-md transform transition duration-300 hover:shadow-lg hover:-translate-y-1">
             <div className="text-3xl font-bold text-cherry mb-2">98%</div>
             <p className="text-gray-600">Customer Satisfaction</p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md">
+          <div className="bg-white p-6 rounded-lg shadow-md transform transition duration-300 hover:shadow-lg hover:-translate-y-1">
             <div className="text-3xl font-bold text-cherry mb-2">30+</div>
             <p className="text-gray-600">Years of Experience</p>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-md">
+          <div className="bg-white p-6 rounded-lg shadow-md transform transition duration-300 hover:shadow-lg hover:-translate-y-1">
             <div className="text-3xl font-bold text-cherry mb-2">24/7</div>
             <p className="text-gray-600">Customer Support</p>
           </div>

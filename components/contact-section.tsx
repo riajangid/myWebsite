@@ -293,7 +293,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-cherry hover:bg-cherry-dark text-white font-medium py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center"
+              className="w-full bg-cherry hover:bg-cherry-dark hover:scale-105 text-white font-medium py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center"
             >
               {loading ? (
                 <>
@@ -409,7 +409,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
                 href="https://wa.me/+919001544899"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center justify-center bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-6 rounded-lg transition duration-300 w-full"
+                className="flex items-center justify-center bg-green-500 hover:scale-105 hover:bg-green-600 text-white font-medium py-3 px-6 rounded-lg transition duration-300 w-full"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -424,7 +424,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 
               <a
                 href="mailto:atc.sales90@gmail.com"
-                className="flex items-center justify-center bg-blue-500 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 w-full
+                className="flex items-center justify-center bg-blue-500 hover:scale-105 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 w-full
 "
               >
                 <Mail className="h-6 w-6 mr-2" />
@@ -432,7 +432,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
               </a>
               <a
                 href="tel:+919001544899"
-                className="flex items-center justify-center bg-gray-800 hover:bg-gray-900 text-white font-medium py-3 px-6 rounded-lg transition duration-300 w-full"
+                className="flex items-center justify-center bg-gray-800 hover:scale-105 hover:bg-gray-900 text-white font-medium py-3 px-6 rounded-lg transition duration-300 w-full"
               >
                 <Phone className="h-6 w-6 mr-2" />
                 Call Us

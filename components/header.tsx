@@ -52,6 +52,9 @@ export default function Header() {
             <Link href="#contact" className="text-gray-700 hover:text-gray-900 font-medium">
               Contact
             </Link>
+            <Link href="/pdf/brochure.pdf" className="text-gray-700 hover:text-gray-900 font-medium">
+              Brochure
+            </Link>
           </nav>
 
           {/* Right Icons */}

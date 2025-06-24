@@ -41,13 +41,13 @@ export default function HeroSection() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
                 href="#products"
-                className="bg-cherry hover:bg-cherry-dark text-white font-medium py-3 px-6 rounded-lg transition duration-300 text-center"
+                className="bg-cherry hover:bg-cherry-dark text-white font-medium py-3 px-6 rounded-lg transition duration-300 text-center hover:shadow-md hover:scale-105"
               >
                 Explore Products
               </Link>
               <Link
                 href="#contact"
-                className="bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium py-3 px-6 rounded-lg transition duration-300 text-center"
+                className="bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium py-3 px-6 rounded-lg transition duration-300 text-center hover:shadow-md hover:scale-105"
               >
                 Contact Us
               </Link>
@@ -90,15 +90,15 @@ export default function HeroSection() {
           </div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 text-center">
-          <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+          <div className="bg-gray-50 p-6 rounded-lg shadow-md transform transition duration-300 hover:shadow-lg hover:-translate-y-1">
             <div className="text-3xl font-bold text-cherry mb-2">30+ Years</div>
             <p className="text-gray-600">Industry Experience</p>
           </div>
-          <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+          <div className="bg-gray-50 p-6 rounded-lg shadow-md transform transition duration-300 hover:shadow-lg hover:-translate-y-1">
             <div className="text-3xl font-bold text-cherry mb-2">500+</div>
             <p className="text-gray-600">Projects Completed</p>
           </div>
-          <div className="bg-gray-50 p-6 rounded-lg shadow-sm">
+          <div className="bg-gray-50 p-6 rounded-lg shadow-md transform transition duration-300 hover:shadow-lg hover:-translate-y-1">
             <div className="text-3xl font-bold text-cherry mb-2">24/7</div>
             <p className="text-gray-600">Technical Support</p>
           </div>
