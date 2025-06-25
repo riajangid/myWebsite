@@ -8,8 +8,8 @@ import TestimonialsSection from "@/components/testimonials-section"
 import ContactSection from "@/components/contact-section"
 import Footer from "@/components/footer"
 import BackToTopButton from "@/components/back-to-top-button"
+import PdfViewer from "@/components/pdf-section"
 import Head from 'next/head'
-
 export default function Home() {
   return (
     <>

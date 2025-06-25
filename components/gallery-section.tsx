@@ -16,7 +16,7 @@ const galleryItems = [
       {
     image:
       "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661017/D.W.SAW_60_HP_2013_1_aofmq9.jpg",
-    title: "Diamond Wire Saw Machine 40HP",
+    title: "Diamond Wire Saw Machine 45kW/60 HP",
     description:
       "Motor and Spare parts can be customize as per the requirement. Motor available(Alfa, El+mo).",
     category: "machines",
@@ -24,7 +24,7 @@ const galleryItems = [
     {
     image:
       "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749665880/9_wkv2tz.jpg",
-    title: "Current Machine Stock",
+    title: "Our 2010 project bulk customised order processing",
     description:
       "Ready for installation.",
     category: "machines",
@@ -32,7 +32,7 @@ const galleryItems = [
     {
     image:
       "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661018/Elct.Panel_60HP_xtcdhp.jpg",
-    title: "Precision Cutting Surface",
+    title: "Electrical Control Panel",
     description:
       "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
     category: "machines",
@@ -40,23 +40,23 @@ const galleryItems = [
     {
     image:
       "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749666030/10_w4voxa.jpg",
-    title: "Precision Cutting Surface",
+    title: "Copper Sleeves",
     description:
       "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
     category: "tools",
   },
-        {
-    image:
-      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661440/IMG-20160101-WA0033_-_Copy_odsg5j.jpg",
-    title: "Precision Cutting Surface",
-    description:
-      "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
-    category: "tools",
-  },
+  //       {
+  //   image:
+  //     "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661440/IMG-20160101-WA0033_-_Copy_odsg5j.jpg",
+  //   title: "Remove 2nd picture",
+  //   description:
+  //     "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
+  //   category: "tools",
+  // },
     {
     image:
       "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749666229/12_tlodxc.jpg",
-    title: "Premium White Quartz",
+    title: "C.I. Hub/Housing DC Gear Box Spare",
     description:
       "Specialized cutting tools and techniques for luxury materials like this premium white quartz. Our equipment ensures clean, precise cuts with minimal waste.",
     category: "tools",
@@ -64,7 +64,7 @@ const galleryItems = [
     {
     image:
       "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661095/CAT41CN80SD_wl8lty.jpg",
-    title: "Precision Cutting Surface",
+    title: "S.P. Chucknut",
     description:
       "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
     category: "tools",
@@ -72,7 +72,7 @@ const galleryItems = [
   {
     image:
       "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661395/CAT49CN70CT_1_j6u4qf.jpg",
-    title: "Artisan Tools",
+    title: "S.P. Chucknut",
     description:
       "Specialized tools for detailed stonework used by master craftsmen. These precision instruments allow for intricate designs and fine finishing work.",
     category: "tools",

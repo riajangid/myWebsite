@@ -1,9 +1,8 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import Link from "next/link"
-import { Search, ShoppingCart, Menu, X } from "lucide-react"
-
+import Link from "next/link"  
+import Brochure from "@/pages/brochure"
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
@@ -16,7 +15,6 @@ export default function Header() {
     window.addEventListener("scroll", handleScroll)
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
-
   return (
     <header
       id="header"
@@ -28,7 +26,7 @@ export default function Header() {
           <div className="flex items-center">
             <img src="https://res.cloudinary.com/dfigcriri/image/upload/v1749576524/ATC_LOGO.jpeg_hufwqj.jpg" alt="Logo" className="h-14 w-16 mr-2" />
             <Link href="#" className="text-3xl font-dmSerif font-extrabold text-gray-800">
-              Active Trade Centre
+              Active Trade Centre<sup>®</sup>
             </Link>
           </div>
 
@@ -52,7 +50,7 @@ export default function Header() {
             <Link href="#contact" className="text-gray-700 hover:text-gray-900 font-medium">
               Contact
             </Link>
-            <Link href="/pdf/brochure.pdf" className="text-gray-700 hover:text-gray-900 font-medium">
+            <Link href="/brochure" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900 font-medium">
               Brochure
             </Link>
           </nav>

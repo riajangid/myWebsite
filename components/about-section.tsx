@@ -18,7 +18,7 @@ export default function AboutSection() {
           <div className="order-2 lg:order-1">
             <h3 className="text-2xl font-bold text-gray-800 mb-4">Our Story</h3>
             <p className="text-gray-600 mb-4">
-              With over 30 years of market experience since 1993, we have delivered hundreds of products without fail in quality. With our excellent after-sales service, we lead the market at the very front of the queue. At Active Trade Center, we deliver products with zero defects, no delays, and provide one of the best after-sales services.
+              With over 30 years of market experience since 1993, we have delivered hundreds of products without fail in quality. With our excellent after-sales service, we lead the market at the very front of the queue. At <b>Active Trade Centre<sup>®</sup></b>, we deliver products with zero defects, no delays, and provide one of the best after-sales services.
             </p>
             <p className="text-gray-600 mb-6">
               Today, we serve clients across the construction, architecture, and design industries, offering

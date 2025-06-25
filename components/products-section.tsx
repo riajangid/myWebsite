@@ -3,33 +3,10 @@
 import { useState, useRef, useEffect } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { ChevronLeft, ChevronRight, ShoppingCart } from "lucide-react"
-
-const productCategories = [
-  {
-    title: "Cutting Machines",
-    description: "Professional-grade stone cutting machines for precision work.",
-    image:
-      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749665779/8_hwxve8.jpg",
-  },
-  {
-    title: "Precision Tools",
-    description: "Specialized tools for detailed stone cutting and finishing.",
-    image:
-      "https://lh3.googleusercontent.com/d/1rYo9wa-u4MKsgt7wsbWMB7X88LXviH0y",
-  },
-  {
-    title: "Accessories",
-    description: "Essential accessories to enhance your stone cutting operations.",
-    image:
-      "https://lh3.googleusercontent.com/d/1dHipfXdjg2OGMuoomqi2DJRYGxhOtiiH",
-  },
-  
-]
 
 const featuredProducts = [
   {
-    title: "Cutting Machines",
+    title: "Diamond Wire Saw Machine 15kW/20 HP",
     description: "Professional-grade stone cutting machines for precision work.",
     price: 649,
     originalPrice: 799,
@@ -37,7 +14,7 @@ const featuredProducts = [
       "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749665779/8_hwxve8.jpg",
   },
   {
-    title: "Precision Tools",
+    title: "Diamond Wire Saw Machine 45kW/60 HP",
     description: "Specialized tools for detailed stone cutting and finishing.",
     price: 649,
     originalPrice: 799,
@@ -45,15 +22,15 @@ const featuredProducts = [
       "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661017/D.W.SAW_60_HP_2013_1_aofmq9.jpg",
   },
   {
-    title: "Accessories",
+    title: "Seamless pipe rod 4” LD4",
     description: "Essential accessories to enhance your stone cutting operations.",
     price: 649,
     originalPrice: 799,
     image:
-      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749666030/10_w4voxa.jpg",
+      "https://res.cloudinary.com/dltpv77qp/image/upload/v1750869524/WhatsApp_Image_2025-06-25_at_22.05.26_c3397544_tz8qlr.jpg",
   }
   ,{
-    title: "Stone Cutter Pro X5",
+    title: "Diamond Wire Saw Machine 45kW/60 HP commercial quality",
     description: "High-precision industrial stone cutting machine with advanced features.",
     price: 2499,
     image:
@@ -61,7 +38,7 @@ const featuredProducts = [
     badge: { text: "New", color: "blue" },
   },
   {
-    title: "Diamond Blade Set",
+    title: "C.I. Hub/Housing DC Gear Box Spare",
     description: "Professional-grade diamond blade set for precise cutting of various stone types.",
     price: 899,
     image:
@@ -69,7 +46,7 @@ const featuredProducts = [
     badge: { text: "Best Seller", color: "green" },
   },
   {
-    title: "Compact Stone Grinder",
+    title: "S.P. Chucknut",
     description: "Versatile and powerful stone grinding tool for detailed finishing work.",
     price: 649,
     originalPrice: 799,
@@ -167,7 +144,7 @@ export default function ProductsSection() {
                     <div className="p-6">
                       <h3 className="text-xl font-semibold text-gray-800 mb-2">{product.title}</h3>
                       <p className="text-gray-600 mb-4">{product.description}</p>
-                      <p className="text-red-800 font-semibold">Contact Us for best price</p>
+                      <Link href='#contact' className="text-red-800 font-semibold">Contact Us for best price</Link>
                       {/* {product.originalPrice && (
                         <span className="text-sm text-gray-400 line-through">
                           ${product.originalPrice}
