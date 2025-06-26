@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react"
 import Link from "next/link"  
 import Brochure from "@/pages/brochure"
+import { Menu, X } from "lucide-react"
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [isScrolled, setIsScrolled] = useState(false)
@@ -56,8 +57,8 @@ export default function Header() {
           </nav>
 
           {/* Right Icons */}
-          {/* <div className="flex items-center space-x-4">
-            <button className="text-gray-700 hover:text-gray-900">
+          <div className="flex items-center space-x-4">
+            {/* <button className="text-gray-700 hover:text-gray-900">
               <Search className="h-6 w-6" />
             </button>
             <Link href="#cart" className="text-gray-700 hover:text-gray-900 relative">
@@ -65,14 +66,14 @@ export default function Header() {
               <span className="absolute -top-2 -right-2 bg-cherry-dark text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
                 0
               </span>
-            </Link>
+            </Link> */}
             <button
               className="md:hidden text-gray-700 hover:text-gray-900"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               {mobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
-          </div> */}
+          </div>
         </div>
       </div>
 
@@ -80,47 +81,24 @@ export default function Header() {
       <div className={`md:hidden bg-white border-t border-gray-200 ${mobileMenuOpen ? "block" : "hidden"}`}>
         <div className="container mx-auto px-4 py-3">
           <nav className="flex flex-col space-y-3">
-            <Link
-              href="#home"
-              className="text-gray-700 hover:text-gray-900 py-2 font-medium"
-              onClick={() => setMobileMenuOpen(false)}
-            >
+ 
+            <Link href="#home" className="text-gray-700 hover:text-gray-900 font-medium">
               Home
             </Link>
-            <Link
-              href="#products"
-              className="text-gray-700 hover:text-gray-900 py-2 font-medium"
-              onClick={() => setMobileMenuOpen(false)}
-            >
+            <Link href="#products" className="text-gray-700 hover:text-gray-900 font-medium">
               Products
             </Link>
-            {/* <Link
-              href="#services"
-              className="text-gray-700 hover:text-gray-900 py-2 font-medium"
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Services
-            </Link> */}
-            <Link
-              href="#gallery"
-              className="text-gray-700 hover:text-gray-900 py-2 font-medium"
-              onClick={() => setMobileMenuOpen(false)}
-            >
+            <Link href="#gallery" className="text-gray-700 hover:text-gray-900 font-medium">
               Gallery
             </Link>
-            <Link
-              href="#about"
-              className="text-gray-700 hover:text-gray-900 py-2 font-medium"
-              onClick={() => setMobileMenuOpen(false)}
-            >
+            <Link href="#about" className="text-gray-700 hover:text-gray-900 font-medium">
               About
             </Link>
-            <Link
-              href="#contact"
-              className="text-gray-700 hover:text-gray-900 py-2 font-medium"
-              onClick={() => setMobileMenuOpen(false)}
-            >
+            <Link href="#contact" className="text-gray-700 hover:text-gray-900 font-medium">
               Contact
+            </Link>
+            <Link href="/brochure" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900 font-medium">
+              Brochure
             </Link>
           </nav>
         </div>

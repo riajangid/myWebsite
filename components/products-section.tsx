@@ -107,8 +107,37 @@ export default function ProductsSection() {
   }, [currentIndex, carouselWidth])
 
   return (
-    <section id="products" className="py-16 bg-gray-50 lg:block hidden ">
-      <div className="container mx-auto px-4">
+    <section id="products" className="py-16 bg-gray-50 ">
+          <div className="relative w-full overflow-hidden">
+          <div className=" marquee flex animate-marquee">
+              {featuredProducts.map((product, index) => (
+                <div key={index} className="flex-shrink-0 w-1/2 md:w-1/3 px-4 h-full p-2">
+                  <div className="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:shadow-xl hover:-translate-y-1">
+                    <div className=" h-32 md:h-64 overflow-hidden">
+                      <Image
+                        src={product.image || "/placeholder.svg"}
+                        alt={product.title}
+                        width={400}
+                        height={200}
+                        className="w-full h-full object-cover transition duration-300 hover:scale-105"
+                      />
+                    </div>
+                    <div className="p-6">
+                      <h3 className="text-xl font-semibold text-gray-800 mb-2">{product.title}</h3>
+                      <p className="text-gray-600 mb-4">{product.description}</p>
+                      <Link href='#contact' className="text-red-800 font-semibold">Contact Us for best price</Link>
+                      {/* {product.originalPrice && (
+                        <span className="text-sm text-gray-400 line-through">
+                          ${product.originalPrice}
+                        </span>
+                      )} */}
+                    </div>
+                  </div>
+                </div>
+              ))}
+      </div>
+      </div>
+      {/* <div className="container mx-auto px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Products</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -117,7 +146,7 @@ export default function ProductsSection() {
           </p>
         </div>
 
-        {/* Product Categories */}
+        
         
         
           <div className="relative">
@@ -145,11 +174,6 @@ export default function ProductsSection() {
                       <h3 className="text-xl font-semibold text-gray-800 mb-2">{product.title}</h3>
                       <p className="text-gray-600 mb-4">{product.description}</p>
                       <Link href='#contact' className="text-red-800 font-semibold">Contact Us for best price</Link>
-                      {/* {product.originalPrice && (
-                        <span className="text-sm text-gray-400 line-through">
-                          ${product.originalPrice}
-                        </span>
-                      )} */}
                     </div>
                   </div>
                 </div>
@@ -157,7 +181,7 @@ export default function ProductsSection() {
             </div>
           </div>
           </div>
-        {/* Pagination Dots */}
+
         <div className="flex justify-center mt-6 space-x-2">
           {productChunks.map((_, index) => (
             <button
@@ -169,8 +193,6 @@ export default function ProductsSection() {
             />
           ))}
         </div>
-
-        {/* View All Products Button */}
         <div className="text-center mt-12">
           <Link
             href="#gallery"
@@ -179,7 +201,7 @@ export default function ProductsSection() {
             View All Products
           </Link>
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }
