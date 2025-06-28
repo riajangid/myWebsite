@@ -423,7 +423,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
               </a>
 
               <a
-                href="mailto:atc.sales90@gmail.com"
+                href="mailto:activetradecentre@yahoo.co.in"
                 className="flex items-center justify-center bg-blue-500 hover:scale-105 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-lg transition duration-300 w-full
 "
               >
