@@ -16,7 +16,7 @@ const roboto = Roboto({
 })
 
 export const metadata: Metadata = {
-  title: "Active Trade Centre",
+  title: "Diamond Wire Saw Machines & Cutting Tools - Active Trade Centre",
   description:
     "Discover high-quality stone cutting machinery, tools, and equipment at ATC. Professional-grade solutions for marble, granite, and stone processing industries.",
     generator: 'v0.dev'
