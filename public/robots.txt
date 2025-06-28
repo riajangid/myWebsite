@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://diamondwiresawmachines.com/
+
+# Sitemaps
+Sitemap: https://diamondwiresawmachines.com/sitemap.xml
