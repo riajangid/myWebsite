@@ -28,7 +28,9 @@ export default function Home() {
           <meta name="twitter:image" content="https://res.cloudinary.com/dfigcriri/image/upload/v1749576524/ATC_LOGO.jpeg_hufwqj.jpg" />
       </Head>
       <Header />
-      <main id="main-content" className="flex-1 relative h-full">
+      {/* <div className="absolute top-0 right-0 w-96 h-1/2 bg-purple-400 bg-opacity-30 rounded-full filter blur-3xl pointer-events-none z-0"></div>
+      <div className="absolute bottom-0 left-0 w-96 h-1/2 bg-purple-400 bg-opacity-30 rounded-full filter blur-3xl pointer-events-none z-0"></div> */}
+      <main id="main-content" className="flex-1 relative h-full ">
         <HeroSection />
         <ProductsSection />
         <GallerySection />

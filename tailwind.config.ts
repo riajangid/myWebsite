@@ -22,6 +22,24 @@ const config = {
       screens: {
         '1030': '1030px',
       },
+      backgroundImage: {
+        'soft-purple-fade': `linear-gradient(
+          to left bottom,
+          #d295ec,
+          #ce9bea,
+          #caa0e7,
+          #c7a5e3,
+          #c4aadf,
+          #c7b3e1,
+          #cbbbe2,
+          #cfc4e3,
+          #dad3ea,
+          #e6e2f2,
+          #f2f0f8,
+          #ffffff
+        )`,
+
+      },
       fontFamily: {
         dmSerif: ['"DM Serif Text"', 'serif'], 
         robotoCondensed: ['"Roboto Condensed"', 'sans-serif'],
@@ -88,12 +106,25 @@ const config = {
         "marquee": {
           '0%': { transform: 'translateX(0)' },
           '100%': { transform: 'translateX(-100%)' },
-        }
+        },
+        flicker: {
+          '0%, 100%': { opacity: '1' },
+          '10%': { opacity: '0.9' },
+          '20%': { opacity: '0.95' },
+          '30%': { opacity: '0.85' },
+          '40%': { opacity: '0.92' },
+          '50%': { opacity: '0.87' },
+          '60%': { opacity: '0.93' },
+          '70%': { opacity: '0.88' },
+          '80%': { opacity: '0.9' },
+          '90%': { opacity: '0.86' },
+        },
       },
       animation: {
         "marquee": 'marquee 7s linear infinite',
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "flicker": 'flicker 3s infinite',
       },
     },
   },

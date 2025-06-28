@@ -26,7 +26,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex items-center">
             <img src="https://res.cloudinary.com/dfigcriri/image/upload/v1749576524/ATC_LOGO.jpeg_hufwqj.jpg" alt="Logo" className="h-14 w-16 mr-2" />
-            <Link href="#" className="text-3xl font-dmSerif font-extrabold text-gray-800">
+            <Link href="#" className=" text-2xl md:text-3xl font-dmSerif font-extrabold text-gray-800">
               Active Trade Centre<sup>®</sup>
             </Link>
           </div>

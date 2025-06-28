@@ -31,7 +31,7 @@ export default function HeroSection() {
   }, [])
 
   return (
-    <section id="home" className="pt-24 md:pt-32 pb-12 md:pb-20 overflow-hidden">
+    <section id="home" className="pt-24 my-3 md:pt-32 pb-12 md:pb-20 overflow-hidden">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 mb-8 md:mb-0 md:pr-8 animate-fade-in">
