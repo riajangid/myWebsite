@@ -16,22 +16,20 @@ export default function Home() {
         <Head>
           <title>Diamond Wire Saw Machines & Cutting Tools - Active Trade Centre</title>
           <meta name="description" content="Discover high-quality stone cutting machinery, tools, and equipment at ATC. Professional-grade solutions for marble, granite, and stone processing industries." />
-          <meta name="robots" content="index, follow" />
-          <link rel="canonical" href="https://www.diamondwiresawmachines.com/" />
-          <link rel="icon" href="https://res.cloudinary.com/dfigcriri/image/upload/v1749576524/ATC_LOGO.jpeg_hufwqj.jpg" />
-          <meta property="og:title" content="Diamond Wire Saw Machines & Cutting Tools - Active Trade Centre" />
+          <meta name="robots" content="index, follow"/>
+          <link rel="canonical" href="https://www.diamondwiresawmachines.com/"/>
+          <link rel="icon" href="https://res.cloudinary.com/dfigcriri/image/upload/v1749576524/ATC_LOGO.jpeg_hufwqj.jpg"/>
+          <meta property="og:title" content="Diamond Wire Saw Machines & Cutting Tools - Active Trade Centre"/>
           <meta property="og:description" content="Discover high-quality wire saw machines, diamond wire saws, and stone cutting tools at Active Trade Centre. We offer a wide range of industrial cutting solutions." />
-          <meta property="og:image" content="https://res.cloudinary.com/dfigcriri/image/upload/v1749576524/ATC_LOGO.jpeg_hufwqj.jpg" />
-          <meta property="og:url" content="https://www.diamondwiresawmachines.com" />
-          <meta property="og:type" content="website" />
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:title" content="Diamond Wire Saw Machines & Cutting Tools - Active Trade Centre" />
-          <meta name="twitter:description" content="Top-quality wire saw machines, cutting tools, and industrial parts for stone, concrete, and quarry operations." />
-          <meta name="twitter:image" content="https://res.cloudinary.com/dfigcriri/image/upload/v1749576524/ATC_LOGO.jpeg_hufwqj.jpg" />
+          <meta property="og:image" content="https://res.cloudinary.com/dfigcriri/image/upload/v1749576524/ATC_LOGO.jpeg_hufwqj.jpg"/>
+          <meta property="og:url" content="https://www.diamondwiresawmachines.com"/>
+          <meta property="og:type" content="website"/>
+          <meta name="twitter:card" content="summary_large_image"/>
+          <meta name="twitter:title" content="Diamond Wire Saw Machines & Cutting Tools - Active Trade Centre"/>
+          <meta name="twitter:description" content="Top-quality wire saw machines, cutting tools, and industrial parts for stone, concrete, and quarry operations."/>
+          <meta name="twitter:image" content="https://res.cloudinary.com/dfigcriri/image/upload/v1749576524/ATC_LOGO.jpeg_hufwqj.jpg"/>
       </Head>
       <Header />
-      {/* <div className="absolute top-0 right-0 w-96 h-1/2 bg-purple-400 bg-opacity-30 rounded-full filter blur-3xl pointer-events-none z-0"></div>
-      <div className="absolute bottom-0 left-0 w-96 h-1/2 bg-purple-400 bg-opacity-30 rounded-full filter blur-3xl pointer-events-none z-0"></div> */}
       <main id="main-content" className="flex-1 relative h-full ">
         <HeroSection />
         <ProductsSection />

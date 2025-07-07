@@ -124,11 +124,11 @@ export default function Footer() {
                   Maintenance & Repair
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="#services" className="text-gray-400 hover:text-white transition duration-300">
                   Training & Consultation
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="#services" className="text-gray-400 hover:text-white transition duration-300">
                   Custom Solutions
