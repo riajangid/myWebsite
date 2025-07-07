@@ -23,8 +23,21 @@ export const metadata: Metadata = {
   generator: "Next.js",
 
   icons: {
-    icon: "https://res.cloudinary.com/dltpv77qp/image/upload/v1751908981/ATC_LOGO-removebg-preview_b6am7t.png ",
+    icon: "https://res.cloudinary.com/dltpv77qp/image/upload/v1751908981/ATC_LOGO-removebg-preview_b6am7t.png",
   },
+
+  keywords: [
+    "diamond wire saw machines",
+    "stone cutting tools",
+    "marble cutting machines",
+    "granite cutting equipment",
+    "wire saw for granite",
+    "stone processing machinery",
+    "quarry cutting machines",
+    "Active Trade Centre",
+    "industrial stone cutter",
+    "diamond tools manufacturer"
+  ],
 
   openGraph: {
     title: "Diamond Wire Saw Machines & Cutting Tools - Active Trade Centre",
@@ -34,7 +47,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://res.cloudinary.com/dltpv77qp/image/upload/v1751908981/ATC_LOGO-removebg-preview_b6am7t.png ",
+        url: "https://res.cloudinary.com/dltpv77qp/image/upload/v1751908981/ATC_LOGO-removebg-preview_b6am7t.png",
         width: 1200,
         height: 630,
         alt: "Active Trade Centre Logo",
@@ -48,7 +61,7 @@ export const metadata: Metadata = {
     description:
       "Top-quality wire saw machines, cutting tools, and industrial parts for stone, concrete, and quarry operations.",
     images: [
-      "https://res.cloudinary.com/dltpv77qp/image/upload/v1751908981/ATC_LOGO-removebg-preview_b6am7t.png ",
+      "https://res.cloudinary.com/dltpv77qp/image/upload/v1751908981/ATC_LOGO-removebg-preview_b6am7t.png",
     ],
   },
 
