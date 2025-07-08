@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: "Diamond Wire Saw Machines & Cutting Tools - Active Trade Centre",
   applicationName: "Active Trade Centre",
   description:
-    "Discover high-quality stone cutting machinery, tools, and equipment at ATC. Professional-grade solutions for marble, granite, and stone processing industries.",
+    "Trusted since 1993, Active Trade Centre offers high-quality diamond wire saw machines and stone cutting tools for construction and design professionals in India.",
   robots: "index, follow",
   generator: "Next.js",
   keywords: [
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Diamond Wire Saw Machines & Cutting Tools - Active Trade Centre",
     description:
-      "Top-quality wire saw machines, cutting tools, and industrial parts for stone, concrete, and quarry operations.",
+      "Trusted since 1993, Active Trade Centre offers high-quality diamond wire saw machines and stone cutting tools for construction and design professionals in India.",
     images: [
       "https://res.cloudinary.com/dltpv77qp/image/upload/v1751908981/ATC_LOGO-removebg-preview_b6am7t.png",
     ],
@@ -94,7 +94,7 @@ export default function RootLayout({
             }),
           }}
         />
-        <meta name="description" content="Discover high-quality stone cutting machinery, tools, and equipment at ATC. Professional-grade solutions for marble, granite, and stone processing industries." />
+        <meta name="description" content="Trusted since 1993, Active Trade Centre offers high-quality diamond wire saw machines and stone cutting tools for construction and design professionals in India." />
         <meta name="robots" content="index, follow"/>
         <link rel="canonical" href="https://www.diamondwiresawmachines.com/"/>
         <link rel="icon" href="https://res.cloudinary.com/dfigcriri/image/upload/v1749576524/ATC_LOGO.jpeg_hufwqj.jpg"/>
