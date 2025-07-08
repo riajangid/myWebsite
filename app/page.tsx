@@ -28,6 +28,18 @@ export default function Home() {
           <meta name="twitter:title" content="Diamond Wire Saw Machines & Cutting Tools - Active Trade Centre"/>
           <meta name="twitter:description" content="Top-quality wire saw machines, cutting tools, and industrial parts for stone, concrete, and quarry operations."/>
           <meta name="twitter:image" content="https://res.cloudinary.com/dfigcriri/image/upload/v1749576524/ATC_LOGO.jpeg_hufwqj.jpg"/>
+          <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "name": "Active Trade Centre",
+              "url": "https://www.diamondwiresawmachines.com",
+              "logo": "https://res.cloudinary.com/dltpv77qp/image/upload/v1751908981/ATC_LOGO-removebg-preview_b6am7t.png"
+            }),
+          }}
+        />
       </Head>
       <Header />
       <main id="main-content" className="flex-1 relative h-full ">
