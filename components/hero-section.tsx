@@ -5,16 +5,28 @@ import Image from "next/image"
 import Link from "next/link"
 
 const heroImages = [
+  // {
+  //   src: "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661282/IMG_20150131_163023_xonnfd.jpg",
+  //   alt: "Stone cutting Exhibition",
+  // },
+  // {
+  //   src: "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661017/D.W.SAW_60_HP_2013_1_aofmq9.jpg",
+  //   alt: "White quartz texture",
+  // },
+  // {
+  //   src: "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749665636/7img_nyhsng.jpg",
+  //   alt: "Rocky path",
+  // }
   {
-    src: "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661282/IMG_20150131_163023_xonnfd.jpg",
+    src: "https://res.cloudinary.com/dltpv77qp/image/upload/v1752425150/Screenshot_2025-07-13_221426_hufnxk.png",
     alt: "Stone cutting Exhibition",
   },
   {
-    src: "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661017/D.W.SAW_60_HP_2013_1_aofmq9.jpg",
+    src: "https://res.cloudinary.com/dltpv77qp/image/upload/v1752425223/Screenshot_2025-07-13_221649_khyplx.png",
     alt: "White quartz texture",
   },
   {
-    src: "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749665636/7img_nyhsng.jpg",
+    src: "https://res.cloudinary.com/dltpv77qp/image/upload/v1752425270/Screenshot_2025-07-13_221735_ouvtlu.png",
     alt: "Rocky path",
   }
 ]
@@ -32,9 +44,9 @@ export default function HeroSection() {
 
   return (
     <section id="home" className="pt-24 my-3 md:pt-32 pb-12 md:pb-20 overflow-hidden">
-      <div className="container mx-auto px-4">
+      <div className="container-full px-10 mx-auto" >
         <div className="flex flex-col md:flex-row items-center">
-          <div className="w-full md:w-1/2 mb-8 md:mb-0 md:pr-8 animate-fade-in">
+          {/* <div className="w-full md:w-1/2 mb-8 md:mb-0 md:pr-8 animate-fade-in">
             <h1 className="text-xl font-semibold text-gray-800 mb-6">
               Cutting through stone like a hot knife cut through butter — our machines don’t just cut, they carve your path to perfection.
             </h1>
@@ -52,10 +64,10 @@ export default function HeroSection() {
                 Contact Us
               </Link>
             </div>
-          </div>
+          </div> */}
 
-          <div className="w-full md:w-1/2 relative">
-            <div className="relative h-[400px] md:h-[500px] overflow-hidden rounded-xl shadow-xl">
+          <div className="w-full md:w-full relative">
+            <div className="relative h-[300px] md:h-[600px] w-full overflow-hidden rounded-xl shadow-xl">
               <div id="hero-slider" className="w-full h-full">
                 {heroImages.map((image, index) => (
                   <div
@@ -68,7 +80,7 @@ export default function HeroSection() {
                       src={image.src || "/placeholder.svg"}
                       alt={image.alt}
                       fill
-                      className="object-cover"
+                      className="h-full w-full"
                       priority={index === 0}
                     />
                   </div>

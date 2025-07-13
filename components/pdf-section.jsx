@@ -12,7 +12,11 @@ const BrochureViewer = () => {
         <Viewer fileUrl="/pdf/brochure.pdf" />
       </Worker>
     </div>
-
+      <div style={{ marginTop: '1rem' }}>
+    <a href="/pdf/brochure.pdf" download="brochure.pdf">
+      <button>Download PDF</button>
+    </a>
+  </div>
 </section>  );
 };
 

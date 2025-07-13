@@ -149,7 +149,7 @@ export default function ServicesSection() {
 
   return (
     <section id="services" className="py-16 bg-white">
-      <div className="container mx-auto px-4">
+      <div className="container-full px-10 mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Services</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -540,7 +540,7 @@ export default function ServicesSection() {
               Contact Us
             </Link>
             <Link
-              href="#"
+              href="/pdf/brochure.pdf"
               className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-cherry font-medium py-3 px-6 rounded-lg transition duration-300 inline-flex items-center justify-center"
             >
               <svg

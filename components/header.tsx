@@ -21,7 +21,7 @@ export default function Header() {
       id="header"
       className={`bg-white shadow-md fixed w-full z-50 transition-all duration-300 ${isScrolled ? "py-2" : "py-4"}`}
     >
-      <div className="container mx-auto px-4">
+      <div className="container-full px-10 mx-auto">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
@@ -51,7 +51,7 @@ export default function Header() {
             <Link href="#contact" className="text-gray-700 hover:text-gray-900 font-medium">
               Contact
             </Link>
-            <Link href="/brochure" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900 font-medium">
+            <Link href="/pdf/brochure.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-700 hover:text-gray-900 font-medium">
               Brochure
             </Link>
           </nav>
@@ -79,7 +79,7 @@ export default function Header() {
 
       {/* Mobile Navigation */}
       <div className={`md:hidden bg-white border-t border-gray-200 ${mobileMenuOpen ? "block" : "hidden"}`}>
-        <div className="container mx-auto px-4 py-3">
+        <div className="container-full px-10 mx-auto py-3">
           <nav className="flex flex-col space-y-3">
  
             <Link href="#home" className="text-gray-700 hover:text-gray-900 font-medium">

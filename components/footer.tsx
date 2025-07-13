@@ -5,7 +5,7 @@ import { Mail, Phone, MapPin, Clock } from "lucide-react"
 export default function Footer() {
   return (
     <footer id="footer" className="bg-gray-900 text-white pt-16 pb-8">
-      <div className="container mx-auto px-4">
+      <div className="container-full px-10 mx-auto">
         {/* Footer Top Section with Logo and Newsletter */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-12">
           {/* Logo and Company Info */}
@@ -177,7 +177,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/pdf/brochure.pdf" className="text-gray-400 hover:text-white transition duration-300">
+                <Link href="/pdf/brochure.pdf" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition duration-300">
                   Brochure
                 </Link>
               </li>
