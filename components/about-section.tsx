@@ -5,7 +5,7 @@ import { Shield, Zap, LifeBuoy } from "lucide-react"
 export default function AboutSection() {
   return (
     <section id="about" className="py-16 bg-gray-50">
-      <div className="container mx-auto px-4">
+      <div className="container-full px-10 mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
@@ -18,18 +18,16 @@ export default function AboutSection() {
           <div className="order-2 lg:order-1">
             <h3 className="text-2xl font-bold text-gray-800 mb-4">Our Story</h3>
             <p className="text-gray-600 mb-4">
-              With over 30+ years of experience in the stone cutting industry, we've built a reputation for excellence
-              and innovation. Our journey began with a simple mission: to provide professional-grade machinery that
-              delivers precision, reliability, and value.
+              With over 30 years of market experience since 1993, we have delivered hundreds of products without fail in quality. With our excellent after-sales service, we lead the market at the very front of the queue. At <b>Active Trade Centre<sup>®</sup></b>, we deliver products with zero defects, no delays, and provide one of the best after-sales services.
             </p>
             <p className="text-gray-600 mb-6">
               Today, we serve clients across the construction, architecture, and design industries, offering
               cutting-edge solutions for all stone processing needs.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col sm:flex-row gap-4 ">
               <Link
                 href="#contact"
-                className="bg-cherry hover:bg-cherry-dark text-white font-medium py-3 px-6 rounded-lg transition duration-300 text-center inline-flex items-center justify-center"
+                className="bg-cherry hover:bg-cherry-dark hover:scale-105 text-white font-medium py-3 px-6 rounded-lg transition duration-300 text-center inline-flex items-center justify-center"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -49,7 +47,7 @@ export default function AboutSection() {
               </Link>
               <Link
                 href="#products"
-                className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium py-3 px-6 rounded-lg transition duration-300 text-center"
+                className="bg-gray-200 hover:bg-gray-300 hover:scale-105 text-gray-800 font-medium py-3 px-6 rounded-lg transition duration-300 text-center"
               >
                 Explore Products
               </Link>
@@ -58,7 +56,7 @@ export default function AboutSection() {
           <div className="order-1 lg:order-2">
             <div className="relative rounded-xl overflow-hidden shadow-xl h-[400px]">
               <Image
-                src="https://lh3.googleusercontent.com/d/1eNGMmD9SqJrZED_mG8OtCF5k243Jmq96"
+                src="https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661602/1_tzif8l.jpg"
                 alt="Stone cutting surface"
                 fill
                 className="object-cover"
@@ -112,7 +110,7 @@ export default function AboutSection() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
               <Image
-                src="https://lh3.googleusercontent.com/d/1vTR8IIUb_QOCLnf2hLjxJfOgEQ9DsiXo"
+                src="https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661600/2_cebrk4.jpg"
                 alt="Stone cutting process"
                 width={600}
                 height={400}
@@ -223,8 +221,8 @@ export default function AboutSection() {
                     </svg>
                   </div>
                   <div>
-                    <div className="text-3xl font-bold text-gray-800">30+</div>
-                    <div className="text-gray-600">Countries Served</div>
+                    <div className="text-3xl font-bold text-gray-800">15+</div>
+                    <div className="text-gray-600">Team of People</div>
                   </div>
                 </div>
 
@@ -254,7 +252,7 @@ export default function AboutSection() {
             </div>
             <div className="hidden md:block">
               <Image
-                src="https://lh3.googleusercontent.com/d/1GkDA19aC1-ciy4ax-I_M07sXQ3B9Covw"
+                src="https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661600/3_kjopbl.jpg"
                 alt="Our impact"
                 width={600}
                 height={400}
@@ -268,7 +266,7 @@ export default function AboutSection() {
         <div className="mt-16 text-center">
           <Link
             href="#contact"
-            className="inline-block bg-cherry hover:bg-cherry-dark text-white font-medium py-3 px-8 rounded-lg transition duration-300"
+            className="inline-block bg-cherry hover:bg-cherry-dark hover:scale-105 text-white font-medium py-3 px-8 rounded-lg transition duration-300"
           >
             Get in Touch
           </Link>

@@ -7,91 +7,90 @@ import { X, ChevronLeft, ChevronRight, Eye } from "lucide-react"
 const galleryItems = [
   {
     image:
-      "https://lh3.googleusercontent.com/d/1txT8KYkMmcuhCEdRM5MLDldU3OHLa7w2",
-    title: "Precision Cutting Surface",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749665779/8_hwxve8.jpg",
+    title: "Diamond Wire Saw Machine 20HP",
     description:
-      "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
+      "Motor and Spare parts can be customize as per the requirement. Motor available(Alfa, El+mo).",
     category: "machines",
   },
       {
     image:
-      "https://lh3.googleusercontent.com/d/1rYo9wa-u4MKsgt7wsbWMB7X88LXviH0y",
-    title: "Industrial Cutter",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661017/D.W.SAW_60_HP_2013_1_aofmq9.jpg",
+    title: "Diamond Wire Saw Machine 45kW/60 HP",
     description:
-      "Our heavy-duty stone processing equipment in action. This industrial-grade machine is designed for high-volume production with consistent quality results.",
+      "Motor and Spare parts can be customize as per the requirement. Motor available(Alfa, El+mo).",
     category: "machines",
   },
     {
     image:
-      "https://lh3.googleusercontent.com/d/1eky1uO8Tjffb0c2Y8hENHuYLKbdDG1n0",
-    title: "Precision Cutting Surface",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749665880/9_wkv2tz.jpg",
+    title: "Our 2010 project bulk customised order processing",
+    description:
+      "Ready for installation.",
+    category: "machines",
+  },
+    {
+    image:
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661018/Elct.Panel_60HP_xtcdhp.jpg",
+    title: "Electrical Control Panel",
     description:
       "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
     category: "machines",
   },
     {
     image:
-      "https://lh3.googleusercontent.com/d/1rzvL3cyI8_M04SStbyi3Elhn_bIKTYK9",
-    title: "Precision Cutting Surface",
-    description:
-      "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
-    category: "machines",
-  },
-    {
-    image:
-      "https://lh3.googleusercontent.com/d/1dHipfXdjg2OGMuoomqi2DJRYGxhOtiiH",
-    title: "Precision Cutting Surface",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749666030/10_w4voxa.jpg",
+    title: "Copper Sleeves",
     description:
       "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
     category: "tools",
   },
-        {
-    image:
-      "https://lh3.googleusercontent.com/d/1m_oxD3QUASq5GzyAbmWYvdwTbT3TkIS2",
-    title: "Precision Cutting Surface",
-    description:
-      "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
-    category: "tools",
-  },
+  //       {
+  //   image:
+  //     "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661440/IMG-20160101-WA0033_-_Copy_odsg5j.jpg",
+  //   title: "Remove 2nd picture",
+  //   description:
+  //     "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
+  //   category: "tools",
+  // },
     {
     image:
-      "https://lh3.googleusercontent.com/d/1JxBqjIu7lgk6XF5LcLqfoWNUFAfstQYG",
-    title: "Premium White Quartz",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749666229/12_tlodxc.jpg",
+    title: "C.I. Hub/Housing DC Gear Box Spare",
     description:
       "Specialized cutting tools and techniques for luxury materials like this premium white quartz. Our equipment ensures clean, precise cuts with minimal waste.",
     category: "tools",
   },
     {
     image:
-      "https://lh3.googleusercontent.com/d/14-mOox7tqlQZtzOJ3VPyxEMrAogYYa0x",
-    title: "Precision Cutting Surface",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661095/CAT41CN80SD_wl8lty.jpg",
+    title: "S.P. Chucknut",
     description:
       "Our high-grade marble cutting platform provides the perfect surface for precision stone cutting operations. Designed for professional use with superior durability and stability.",
     category: "tools",
   },
   {
     image:
-      "https://lh3.googleusercontent.com/d/1CjOVu72gCrxz1Ud-iTb9OwPlxwehQc_P",
-    title: "Artisan Tools",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749661395/CAT49CN70CT_1_j6u4qf.jpg",
+    title: "S.P. Chucknut",
     description:
       "Specialized tools for detailed stonework used by master craftsmen. These precision instruments allow for intricate designs and fine finishing work.",
     category: "tools",
   },
     {
     image:
-      "https://lh3.googleusercontent.com/d/157km3_05ysWGLFbT7o8M4oHgaYJLi5br",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749666110/11_jefjfi.jpg",
     title: "Landscape Project",
     description:
       "A completed custom stone pathway installation using our professional-grade cutting equipment. This project showcases the versatility and precision of our machinery.",
     category: "projects",
   },
-
-    {
+  {
     image:
-      "https://lh3.googleusercontent.com/d/1ZBtH6Rewj2fbMegWj6f96QavCgIcYo6h",
-    title: "Architectural Project",
+      "https://res.cloudinary.com/dbgrhb2r2/image/upload/v1749665636/7img_nyhsng.jpg",
+    title: "Fully tested machine with panel",
     description:
-      "A completed custom stone facade installation for a commercial building. Our cutting machinery was used to create precise, uniform stone elements for this impressive structure.",
+      "Ready for installation",
     category: "projects",
   },
 ]
@@ -131,7 +130,7 @@ export default function GallerySection() {
 
   return (
     <section id="gallery" className="py-16 bg-white">
-      <div className="container mx-auto px-4">
+      <div className="container-full px-10 mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Gallery</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
