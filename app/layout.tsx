@@ -107,7 +107,7 @@ export default function RootLayout({
         <meta name="twitter:title" content="Diamond Wire Saw Machines & Cutting Tools - Active Trade Centre"/>
         <meta name="twitter:description" content="Top-quality wire saw machines, cutting tools, and industrial parts for stone, concrete, and quarry operations."/>
         <meta name="twitter:image" content="https://res.cloudinary.com/dfigcriri/image/upload/v1749576524/ATC_LOGO.jpeg_hufwqj.jpg"/>
-        <meta name="google-site-verification" content="ydmgTgfGSPXMIhaE27th1ja2M_0H5gfiy-opJaL-58s" />
+        {/* <meta name="google-site-verification" content="ydmgTgfGSPXMIhaE27th1ja2M_0H5gfiy-opJaL-58s" /> */}
       </head>
       <body
         className={`antialiased text-gray-800 min-h-screen flex flex-col ${inter.variable} ${barlow.variable} ${roboto.variable}`}
