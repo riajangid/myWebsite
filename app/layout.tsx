@@ -25,6 +25,7 @@ export const metadata: Metadata = {
   generator: "Next.js",
   keywords: [
     "diamond wire saw machines",
+    "diamond wire saw machine",
     "stone cutting tools",
     "marble cutting machines",
     "granite cutting equipment",
@@ -49,7 +50,9 @@ export const metadata: Metadata = {
     "wire saw machine",
     "ria jangid",
     "bani park",
-    "riya jangid"
+    "riya jangid",
+    "quarry",
+    "mines"
   ],
 
    icons: {
@@ -117,6 +120,7 @@ export default function RootLayout({
         <meta name="twitter:description" content="Top-quality wire saw machines, cutting tools, and industrial parts for stone, concrete, and quarry operations."/>
         <meta name="twitter:image" content="https://res.cloudinary.com/dfigcriri/image/upload/v1749576524/ATC_LOGO.jpeg_hufwqj.jpg"/>
         {/* <meta name="google-site-verification" content="ydmgTgfGSPXMIhaE27th1ja2M_0H5gfiy-opJaL-58s" /> */}
+        <meta name="google-site-verification" content="UUZ8T_wwtLT0wevz0JV3oR1twAezDepxsMWDYzOuZBI" />
       </head>
       <body
         className={`antialiased text-gray-800 min-h-screen flex flex-col ${inter.variable} ${barlow.variable} ${roboto.variable}`}
