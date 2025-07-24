@@ -40,7 +40,16 @@ export const metadata: Metadata = {
     "stone processing tools", 
     "Active Trade Centre", 
     "industrial cutting machine", 
-    "construction tools"
+    "construction tools",
+    "ATC",
+    "ATC jaipur",
+    "wire saw machine jaipur",
+    "diamond wire machine jaipur",
+    "diamond wire machine",
+    "wire saw machine",
+    "ria jangid",
+    "bani park",
+    "riya jangid"
   ],
 
    icons: {
