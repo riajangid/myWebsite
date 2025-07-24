@@ -25,6 +25,11 @@ export const metadata: Metadata = {
   generator: "Next.js",
   keywords: [
     "diamond wire saw machines",
+    "diamond",
+    "wire",
+    "saw",
+    "machine",
+    "machines",
     "diamond wire saw machine",
     "stone cutting tools",
     "marble cutting machines",
